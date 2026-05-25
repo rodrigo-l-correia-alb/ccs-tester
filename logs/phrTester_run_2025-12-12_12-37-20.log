@@ -1,0 +1,1180 @@
+[2025-12-12 12:37:23.009] [INFO   ] Credit account 500000505 with 1879048192 bytes 
+[2025-12-12 12:37:23.041] [INFO   ] testStartSeconds:2025-04-12T11:37:23.001Z 
+[2025-12-12 12:37:23.043] [INFO   ] testEndSeconds:2025-07-11T11:37:23.001Z 
+[2025-12-12 12:37:23.566] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-12T11:37:23.001Z, N7) 
+[2025-12-12 12:37:23.569] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:23.595] [INFO   ] LDAP Consumido = {0} Quota total = {1879048192} 
+[2025-12-12 12:37:23.596] [INFO   ] AvailableQuota: 1879048192 
+[2025-12-12 12:37:23.602] [INFO   ] GSU=104857600, consumptionRate=279305 bytes/s Intervalo entre pedido=375 
+[2025-12-12 12:37:23.859] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, b287b9a0-2677-4db9-a0af-9dc9c3a7f50c, 2, 104857600, 0, 2025-04-12T11:43:38.001Z, N7) 
+[2025-12-12 12:37:23.860] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:37:23.886] [INFO   ] LDAP Consumido = {104857600} Quota total = {1879048192} 
+[2025-12-12 12:37:23.887] [INFO   ] AvailableQuota: 1774190592 
+[2025-12-12 12:37:23.889] [INFO   ] GSU=104857600, consumptionRate=90 bytes/s Intervalo entre pedido=1165084 
+[2025-12-12 12:37:23.897] [INFO   ] [Truncated] GSU= 104857600, used = 9041040 consumptionRate= 90 bytes/s Intervalo entre pedido = 100456 
+[2025-12-12 12:37:24.052] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, b287b9a0-2677-4db9-a0af-9dc9c3a7f50c, 3, 9041040, 0, 2025-04-13T15:37:54.001Z, N7) 
+[2025-12-12 12:37:24.054] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:24.081] [INFO   ] LDAP Consumido = {113898640} Quota total = {1879048192} 
+[2025-12-12 12:37:24.081] [INFO   ] AvailableQuota: 1765149552 
+[2025-12-12 12:37:24.284] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-13T16:50:10.001Z, N7) 
+[2025-12-12 12:37:24.284] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:24.309] [INFO   ] LDAP Consumido = {113898640} Quota total = {1879048192} 
+[2025-12-12 12:37:24.310] [INFO   ] AvailableQuota: 1765149552 
+[2025-12-12 12:37:24.310] [INFO   ] GSU=104857600, consumptionRate=664738 bytes/s Intervalo entre pedido=157 
+[2025-12-12 12:37:24.540] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 32ecd22e-68ca-48f3-b24a-ffcbb5532570, 2, 104857600, 0, 2025-04-13T16:52:47.001Z, N7) 
+[2025-12-12 12:37:24.541] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:37:24.565] [INFO   ] LDAP Consumido = {323613840} Quota total = {1879048192} 
+[2025-12-12 12:37:24.565] [INFO   ] AvailableQuota: 1555434352 
+[2025-12-12 12:37:24.567] [INFO   ] GSU=104857600, consumptionRate=16497 bytes/s Intervalo entre pedido=6356 
+[2025-12-12 12:37:24.567] [INFO   ] [Truncated] GSU= 104857600, used = 3068442 consumptionRate= 16497 bytes/s Intervalo entre pedido = 186 
+[2025-12-12 12:37:24.723] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 32ecd22e-68ca-48f3-b24a-ffcbb5532570, 3, 3068442, 0, 2025-04-13T16:55:53.001Z, N7) 
+[2025-12-12 12:37:24.723] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:24.752] [INFO   ] LDAP Consumido = {329750724} Quota total = {1879048192} 
+[2025-12-12 12:37:24.752] [INFO   ] AvailableQuota: 1549297468 
+[2025-12-12 12:37:25.045] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-13T18:50:44.001Z, N7) 
+[2025-12-12 12:37:25.046] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:25.090] [INFO   ] LDAP Consumido = {329750724} Quota total = {1879048192} 
+[2025-12-12 12:37:25.092] [INFO   ] AvailableQuota: 1549297468 
+[2025-12-12 12:37:25.093] [INFO   ] GSU=104857600, consumptionRate=63500 bytes/s Intervalo entre pedido=1651 
+[2025-12-12 12:37:25.391] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 4e0825ea-f36b-4aa5-805b-f74200e7f5d4, 2, 104857600, 0, 2025-04-13T19:18:15.001Z, N7) 
+[2025-12-12 12:37:25.392] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:37:25.417] [INFO   ] LDAP Consumido = {539465924} Quota total = {1879048192} 
+[2025-12-12 12:37:25.417] [INFO   ] AvailableQuota: 1339582268 
+[2025-12-12 12:37:25.419] [INFO   ] GSU=104857600, consumptionRate=39903 bytes/s Intervalo entre pedido=2627 
+[2025-12-12 12:37:25.419] [INFO   ] [Truncated] GSU= 104857600, used = 87706794 consumptionRate= 39903 bytes/s Intervalo entre pedido = 2198 
+[2025-12-12 12:37:25.572] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 4e0825ea-f36b-4aa5-805b-f74200e7f5d4, 3, 87706794, 0, 2025-04-13T19:54:53.001Z, N7) 
+[2025-12-12 12:37:25.573] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:25.596] [INFO   ] LDAP Consumido = {714879512} Quota total = {1879048192} 
+[2025-12-12 12:37:25.596] [INFO   ] AvailableQuota: 1164168680 
+[2025-12-12 12:37:25.780] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-13T20:00:33.001Z, N7) 
+[2025-12-12 12:37:25.781] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:25.804] [INFO   ] LDAP Consumido = {714879512} Quota total = {1879048192} 
+[2025-12-12 12:37:25.806] [INFO   ] AvailableQuota: 1164168680 
+[2025-12-12 12:37:25.806] [INFO   ] GSU=104857600, consumptionRate=384079 bytes/s Intervalo entre pedido=273 
+[2025-12-12 12:37:26.005] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 4b05d3d1-3c03-4e98-b1dd-9ac36f2a6638, 2, 104857600, 0, 2025-04-13T20:05:06.001Z, N7) 
+[2025-12-12 12:37:26.005] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:37:26.029] [INFO   ] LDAP Consumido = {924594712} Quota total = {1879048192} 
+[2025-12-12 12:37:26.030] [INFO   ] AvailableQuota: 954453480 
+[2025-12-12 12:37:26.031] [INFO   ] GSU=104857600, consumptionRate=61 bytes/s Intervalo entre pedido=1718977 
+[2025-12-12 12:37:26.032] [INFO   ] [Truncated] GSU= 104857600, used = 144204 consumptionRate= 61 bytes/s Intervalo entre pedido = 2364 
+[2025-12-12 12:37:26.183] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 4b05d3d1-3c03-4e98-b1dd-9ac36f2a6638, 3, 144204, 0, 2025-04-13T20:44:30.001Z, N7) 
+[2025-12-12 12:37:26.184] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:26.209] [INFO   ] LDAP Consumido = {924883120} Quota total = {1879048192} 
+[2025-12-12 12:37:26.209] [INFO   ] AvailableQuota: 954165072 
+[2025-12-12 12:37:26.427] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-14T22:24:12.001Z, N7) 
+[2025-12-12 12:37:26.428] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:26.454] [INFO   ] LDAP Consumido = {924883120} Quota total = {1879048192} 
+[2025-12-12 12:37:26.455] [INFO   ] AvailableQuota: 954165072 
+[2025-12-12 12:37:26.456] [INFO   ] GSU=104857600, consumptionRate=50085 bytes/s Intervalo entre pedido=2093 
+[2025-12-12 12:37:26.456] [INFO   ] [Truncated] GSU= 104857600, used = 40017915 consumptionRate= 50085 bytes/s Intervalo entre pedido = 799 
+[2025-12-12 12:37:26.626] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 16327236-f9fd-4d4c-9da0-6469327e1069, 2, 40017915, 0, 2025-04-14T22:37:31.001Z, N7) 
+[2025-12-12 12:37:26.626] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:26.649] [INFO   ] LDAP Consumido = {1004918950} Quota total = {1879048192} 
+[2025-12-12 12:37:26.650] [INFO   ] AvailableQuota: 874129242 
+[2025-12-12 12:37:27.020] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-15T00:04:22.001Z, N7) 
+[2025-12-12 12:37:27.020] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:27.046] [INFO   ] LDAP Consumido = {1004918950} Quota total = {1879048192} 
+[2025-12-12 12:37:27.047] [INFO   ] AvailableQuota: 874129242 
+[2025-12-12 12:37:27.048] [INFO   ] GSU=104857600, consumptionRate=907 bytes/s Intervalo entre pedido=115609 
+[2025-12-12 12:37:27.048] [INFO   ] [Truncated] GSU= 104857600, used = 3722328 consumptionRate= 907 bytes/s Intervalo entre pedido = 4104 
+[2025-12-12 12:37:27.205] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, c0371632-92fe-4a12-a45c-38d1a3232550, 2, 3722328, 0, 2025-04-15T01:12:46.001Z, N7) 
+[2025-12-12 12:37:27.206] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:27.231] [INFO   ] LDAP Consumido = {1008641278} Quota total = {1879048192} 
+[2025-12-12 12:37:27.231] [INFO   ] AvailableQuota: 870406914 
+[2025-12-12 12:37:27.424] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-15T01:12:47.001Z, N7) 
+[2025-12-12 12:37:27.425] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:27.449] [INFO   ] LDAP Consumido = {1008641278} Quota total = {1879048192} 
+[2025-12-12 12:37:27.450] [INFO   ] AvailableQuota: 870406914 
+[2025-12-12 12:37:27.451] [INFO   ] GSU=104857600, consumptionRate=1587975 bytes/s Intervalo entre pedido=66 
+[2025-12-12 12:37:27.717] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 6bdccb87-53a8-4d65-94e2-b6ca06f8e969, 2, 104857600, 0, 2025-04-15T01:13:53.001Z, N7) 
+[2025-12-12 12:37:27.717] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:37:27.740] [INFO   ] LDAP Consumido = {1113498878} Quota total = {1879048192} 
+[2025-12-12 12:37:27.740] [INFO   ] AvailableQuota: 765549314 
+[2025-12-12 12:37:27.741] [INFO   ] GSU=104857600, consumptionRate=5974 bytes/s Intervalo entre pedido=17552 
+[2025-12-12 12:37:27.741] [INFO   ] [Truncated] GSU= 104857600, used = 83618078 consumptionRate= 5974 bytes/s Intervalo entre pedido = 13997 
+[2025-12-12 12:37:28.016] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 6bdccb87-53a8-4d65-94e2-b6ca06f8e969, 3, 83618078, 0, 2025-04-15T05:07:10.001Z, N7) 
+[2025-12-12 12:37:28.018] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:28.041] [INFO   ] LDAP Consumido = {1197116956} Quota total = {1879048192} 
+[2025-12-12 12:37:28.042] [INFO   ] AvailableQuota: 681931236 
+[2025-12-12 12:37:28.225] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-15T05:07:22.001Z, N7) 
+[2025-12-12 12:37:28.225] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:28.249] [INFO   ] LDAP Consumido = {1197116956} Quota total = {1879048192} 
+[2025-12-12 12:37:28.250] [INFO   ] AvailableQuota: 681931236 
+[2025-12-12 12:37:28.251] [INFO   ] GSU=104857600, consumptionRate=6246 bytes/s Intervalo entre pedido=16787 
+[2025-12-12 12:37:28.251] [INFO   ] [Truncated] GSU= 104857600, used = 6452118 consumptionRate= 6246 bytes/s Intervalo entre pedido = 1033 
+[2025-12-12 12:37:28.515] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 4fde8cf1-d7f2-481b-bdac-66faf8a89afe, 2, 6452118, 0, 2025-04-15T05:24:35.001Z, N7) 
+[2025-12-12 12:37:28.515] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:28.540] [INFO   ] LDAP Consumido = {1203569074} Quota total = {1879048192} 
+[2025-12-12 12:37:28.541] [INFO   ] AvailableQuota: 675479118 
+[2025-12-12 12:37:28.780] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-15T09:03:13.001Z, N7) 
+[2025-12-12 12:37:28.780] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:28.804] [INFO   ] LDAP Consumido = {1203569074} Quota total = {1879048192} 
+[2025-12-12 12:37:28.805] [INFO   ] AvailableQuota: 675479118 
+[2025-12-12 12:37:28.806] [INFO   ] GSU=104857600, consumptionRate=26152 bytes/s Intervalo entre pedido=4009 
+[2025-12-12 12:37:28.806] [INFO   ] [Truncated] GSU= 104857600, used = 11663792 consumptionRate= 26152 bytes/s Intervalo entre pedido = 446 
+[2025-12-12 12:37:28.971] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 1d89b3ed-2959-41fa-8d3b-d179c09f5780, 2, 11663792, 0, 2025-04-15T09:10:39.001Z, N7) 
+[2025-12-12 12:37:28.971] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:28.997] [INFO   ] LDAP Consumido = {1215232866} Quota total = {1879048192} 
+[2025-12-12 12:37:28.997] [INFO   ] AvailableQuota: 663815326 
+[2025-12-12 12:37:29.183] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-15T09:10:42.001Z, N7) 
+[2025-12-12 12:37:29.183] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:29.212] [INFO   ] LDAP Consumido = {1215232866} Quota total = {1879048192} 
+[2025-12-12 12:37:29.212] [INFO   ] AvailableQuota: 663815326 
+[2025-12-12 12:37:29.212] [INFO   ] GSU=104857600, consumptionRate=5 bytes/s Intervalo entre pedido=20971520 
+[2025-12-12 12:37:29.212] [INFO   ] [Truncated] GSU= 104857600, used = 1006185 consumptionRate= 5 bytes/s Intervalo entre pedido = 201237 
+[2025-12-12 12:37:29.410] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 5dbe3c3f-9510-41c9-b205-54518243175d, 2, 1006185, 0, 2025-04-17T17:04:39.001Z, N7) 
+[2025-12-12 12:37:29.411] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:29.435] [INFO   ] LDAP Consumido = {1217245236} Quota total = {1879048192} 
+[2025-12-12 12:37:29.436] [INFO   ] AvailableQuota: 661802956 
+[2025-12-12 12:37:29.596] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-18T02:06:18.001Z, N7) 
+[2025-12-12 12:37:29.596] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:29.621] [INFO   ] LDAP Consumido = {1217245236} Quota total = {1879048192} 
+[2025-12-12 12:37:29.621] [INFO   ] AvailableQuota: 661802956 
+[2025-12-12 12:37:29.622] [INFO   ] GSU=104857600, consumptionRate=67437 bytes/s Intervalo entre pedido=1554 
+[2025-12-12 12:37:29.622] [INFO   ] [Truncated] GSU= 104857600, used = 104527350 consumptionRate= 67437 bytes/s Intervalo entre pedido = 1550 
+[2025-12-12 12:37:29.780] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 1c3471ca-4a22-482a-96e2-becfd879ed0f, 2, 104527350, 0, 2025-04-18T02:32:08.001Z, N7) 
+[2025-12-12 12:37:29.780] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:29.805] [INFO   ] LDAP Consumido = {1321772586} Quota total = {1879048192} 
+[2025-12-12 12:37:29.805] [INFO   ] AvailableQuota: 557275606 
+[2025-12-12 12:37:29.983] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-18T06:09:04.001Z, N7) 
+[2025-12-12 12:37:29.984] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:30.008] [INFO   ] LDAP Consumido = {1321772586} Quota total = {1879048192} 
+[2025-12-12 12:37:30.008] [INFO   ] AvailableQuota: 557275606 
+[2025-12-12 12:37:30.009] [INFO   ] GSU=104857600, consumptionRate=1254 bytes/s Intervalo entre pedido=83618 
+[2025-12-12 12:37:30.009] [INFO   ] [Truncated] GSU= 104857600, used = 34725768 consumptionRate= 1254 bytes/s Intervalo entre pedido = 27692 
+[2025-12-12 12:37:30.155] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 4d66e1a8-883c-4cf8-8d63-77610f2fcc40, 2, 34725768, 0, 2025-04-18T13:50:36.001Z, N7) 
+[2025-12-12 12:37:30.156] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:30.180] [INFO   ] LDAP Consumido = {1356498354} Quota total = {1879048192} 
+[2025-12-12 12:37:30.181] [INFO   ] AvailableQuota: 522549838 
+[2025-12-12 12:37:30.382] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-18T16:24:30.001Z, N7) 
+[2025-12-12 12:37:30.383] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:30.408] [INFO   ] LDAP Consumido = {1356498354} Quota total = {1879048192} 
+[2025-12-12 12:37:30.409] [INFO   ] AvailableQuota: 522549838 
+[2025-12-12 12:37:30.409] [INFO   ] GSU=104857600, consumptionRate=48302 bytes/s Intervalo entre pedido=2170 
+[2025-12-12 12:37:30.706] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, a77c0d52-7182-43c1-a0d8-449d61779f8a, 2, 104857600, 0, 2025-04-18T17:00:40.001Z, N7) 
+[2025-12-12 12:37:30.707] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:37:30.733] [INFO   ] LDAP Consumido = {1566213554} Quota total = {1879048192} 
+[2025-12-12 12:37:30.733] [INFO   ] AvailableQuota: 312834638 
+[2025-12-12 12:37:30.734] [INFO   ] AvailableQuota(312834638) < minimum availableQuota(362486283) 
+[2025-12-12 12:37:30.734] [INFO   ] Reactive Top-up! 
+[2025-12-12 12:37:30.787] [INFO   ] Credit account 500000505 with 4563402752 bytes 
+[2025-12-12 12:37:30.811] [INFO   ] LDAP Consumido = {1566213554} Quota total = {6442450944} 
+[2025-12-12 12:37:30.812] [INFO   ] Credit after topup = { 4876237390 } 
+[2025-12-12 12:37:31.028] [INFO   ] ESR Notification for account: 500000505 with response code: 200 
+[2025-12-12 12:37:31.029] [INFO   ] GSU=104857600, consumptionRate=19493 bytes/s Intervalo entre pedido=5379 
+[2025-12-12 12:37:31.029] [INFO   ] [Truncated] GSU= 104857600, used = 94151190 consumptionRate= 19493 bytes/s Intervalo entre pedido = 4830 
+[2025-12-12 12:37:31.188] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, a77c0d52-7182-43c1-a0d8-449d61779f8a, 3, 94151190, 0, 2025-04-18T18:21:10.001Z, N7) 
+[2025-12-12 12:37:31.188] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:31.214] [INFO   ] LDAP Consumido = {1754515934} Quota total = {6442450944} 
+[2025-12-12 12:37:31.214] [INFO   ] AvailableQuota: 4687935010 
+[2025-12-12 12:37:31.381] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-18T18:26:24.001Z, N7) 
+[2025-12-12 12:37:31.381] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:31.405] [INFO   ] LDAP Consumido = {1754515934} Quota total = {6442450944} 
+[2025-12-12 12:37:31.405] [INFO   ] AvailableQuota: 4687935010 
+[2025-12-12 12:37:31.406] [INFO   ] GSU=104857600, consumptionRate=10130 bytes/s Intervalo entre pedido=10351 
+[2025-12-12 12:37:31.406] [INFO   ] [Truncated] GSU= 104857600, used = 6128650 consumptionRate= 10130 bytes/s Intervalo entre pedido = 605 
+[2025-12-12 12:37:31.620] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, ebc49e77-cb4a-4f5b-a28e-637c8ca44e1c, 2, 6128650, 0, 2025-04-18T18:36:29.001Z, N7) 
+[2025-12-12 12:37:31.621] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:31.649] [INFO   ] LDAP Consumido = {1766773234} Quota total = {6442450944} 
+[2025-12-12 12:37:31.649] [INFO   ] AvailableQuota: 4675677710 
+[2025-12-12 12:37:31.887] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-18T18:43:34.001Z, N7) 
+[2025-12-12 12:37:31.887] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:31.911] [INFO   ] LDAP Consumido = {1766773234} Quota total = {6442450944} 
+[2025-12-12 12:37:31.913] [INFO   ] AvailableQuota: 4675677710 
+[2025-12-12 12:37:31.914] [INFO   ] GSU=104857600, consumptionRate=68 bytes/s Intervalo entre pedido=1542023 
+[2025-12-12 12:37:31.914] [INFO   ] [Truncated] GSU= 104857600, used = 542096 consumptionRate= 68 bytes/s Intervalo entre pedido = 7972 
+[2025-12-12 12:37:32.116] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, a9271ca3-28d0-4a14-a177-15c583fed281, 2, 542096, 0, 2025-04-18T20:56:26.001Z, N7) 
+[2025-12-12 12:37:32.116] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:32.140] [INFO   ] LDAP Consumido = {1767857426} Quota total = {6442450944} 
+[2025-12-12 12:37:32.140] [INFO   ] AvailableQuota: 4674593518 
+[2025-12-12 12:37:32.322] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-18T21:10:11.001Z, N7) 
+[2025-12-12 12:37:32.322] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:32.346] [INFO   ] LDAP Consumido = {1767857426} Quota total = {6442450944} 
+[2025-12-12 12:37:32.347] [INFO   ] AvailableQuota: 4674593518 
+[2025-12-12 12:37:32.347] [INFO   ] GSU=104857600, consumptionRate=18873 bytes/s Intervalo entre pedido=5555 
+[2025-12-12 12:37:32.347] [INFO   ] [Truncated] GSU= 104857600, used = 36953334 consumptionRate= 18873 bytes/s Intervalo entre pedido = 1958 
+[2025-12-12 12:37:32.637] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 09846f3b-4ec0-4aac-9fdf-f1d5fbded3fc, 2, 36953334, 0, 2025-04-18T21:42:49.001Z, N7) 
+[2025-12-12 12:37:32.637] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:32.661] [INFO   ] LDAP Consumido = {1841764094} Quota total = {6442450944} 
+[2025-12-12 12:37:32.662] [INFO   ] AvailableQuota: 4600686850 
+[2025-12-12 12:37:32.953] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-18T21:43:04.001Z, N7) 
+[2025-12-12 12:37:32.953] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:32.977] [INFO   ] LDAP Consumido = {1841764094} Quota total = {6442450944} 
+[2025-12-12 12:37:32.978] [INFO   ] AvailableQuota: 4600686850 
+[2025-12-12 12:37:32.978] [INFO   ] GSU=104857600, consumptionRate=1 bytes/s Intervalo entre pedido=104857600 
+[2025-12-12 12:37:32.979] [INFO   ] [Truncated] GSU= 104857600, used = 60 consumptionRate= 1 bytes/s Intervalo entre pedido = 60 
+[2025-12-12 12:37:33.176] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 11ea144b-e69d-4e22-9c8c-c72f7433c363, 2, 60, 0, 2025-04-18T21:44:04.001Z, N7) 
+[2025-12-12 12:37:33.176] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:33.202] [INFO   ] LDAP Consumido = {1841764214} Quota total = {6442450944} 
+[2025-12-12 12:37:33.202] [INFO   ] AvailableQuota: 4600686730 
+[2025-12-12 12:37:33.545] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-19T07:01:05.001Z, N7) 
+[2025-12-12 12:37:33.545] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:33.569] [INFO   ] LDAP Consumido = {1841764214} Quota total = {6442450944} 
+[2025-12-12 12:37:33.569] [INFO   ] AvailableQuota: 4600686730 
+[2025-12-12 12:37:33.569] [INFO   ] GSU=104857600, consumptionRate=9486 bytes/s Intervalo entre pedido=11053 
+[2025-12-12 12:37:33.569] [INFO   ] [Truncated] GSU= 104857600, used = 11326284 consumptionRate= 9486 bytes/s Intervalo entre pedido = 1194 
+[2025-12-12 12:37:33.736] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 39c025b5-0ab6-49ad-ad7d-25fadc6b7a16, 2, 11326284, 0, 2025-04-19T07:20:59.001Z, N7) 
+[2025-12-12 12:37:33.737] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:33.761] [INFO   ] LDAP Consumido = {1853090498} Quota total = {6442450944} 
+[2025-12-12 12:37:33.761] [INFO   ] AvailableQuota: 4589360446 
+[2025-12-12 12:37:34.025] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-20T04:43:05.001Z, N7) 
+[2025-12-12 12:37:34.025] [INFO   ] Http response with code: 201 Message {grantedUnit=458936044, resultCode=201} 
+[2025-12-12 12:37:34.053] [INFO   ] LDAP Consumido = {1853090498} Quota total = {6442450944} 
+[2025-12-12 12:37:34.053] [INFO   ] AvailableQuota: 4589360446 
+[2025-12-12 12:37:34.054] [INFO   ] GSU=458936044, consumptionRate=2589 bytes/s Intervalo entre pedido=177263 
+[2025-12-12 12:37:34.054] [INFO   ] [Truncated] GSU= 458936044, used = 6133341 consumptionRate= 2589 bytes/s Intervalo entre pedido = 2369 
+[2025-12-12 12:37:34.334] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 32f2e9c5-e73b-40b9-9a32-2862971cb33a, 2, 6133341, 0, 2025-04-20T05:22:34.001Z, N7) 
+[2025-12-12 12:37:34.334] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:34.358] [INFO   ] LDAP Consumido = {1853090498} Quota total = {6442450944} 
+[2025-12-12 12:37:34.359] [INFO   ] AvailableQuota: 4589360446 
+[2025-12-12 12:37:34.521] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-20T05:22:35.001Z, N7) 
+[2025-12-12 12:37:34.521] [INFO   ] Http response with code: 201 Message {grantedUnit=458322710, resultCode=201} 
+[2025-12-12 12:37:34.544] [INFO   ] LDAP Consumido = {1859223839} Quota total = {6442450944} 
+[2025-12-12 12:37:34.545] [INFO   ] AvailableQuota: 4583227105 
+[2025-12-12 12:37:34.546] [INFO   ] GSU=458322710, consumptionRate=243 bytes/s Intervalo entre pedido=1886101 
+[2025-12-12 12:37:34.546] [INFO   ] [Truncated] GSU= 458322710, used = 4766688 consumptionRate= 243 bytes/s Intervalo entre pedido = 19616 
+[2025-12-12 12:37:34.739] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 951735bf-deb1-4b88-b1d5-ca5a3cf046b5, 2, 4766688, 0, 2025-04-20T10:49:31.001Z, N7) 
+[2025-12-12 12:37:34.739] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:34.764] [INFO   ] LDAP Consumido = {1859223839} Quota total = {6442450944} 
+[2025-12-12 12:37:34.765] [INFO   ] AvailableQuota: 4583227105 
+[2025-12-12 12:37:34.917] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-20T11:14:27.001Z, N7) 
+[2025-12-12 12:37:34.918] [INFO   ] Http response with code: 201 Message {grantedUnit=457846041, resultCode=201} 
+[2025-12-12 12:37:34.941] [INFO   ] LDAP Consumido = {1863990527} Quota total = {6442450944} 
+[2025-12-12 12:37:34.942] [INFO   ] AvailableQuota: 4578460417 
+[2025-12-12 12:37:34.942] [INFO   ] GSU=457846041, consumptionRate=93150 bytes/s Intervalo entre pedido=4915 
+[2025-12-12 12:37:34.942] [INFO   ] [Truncated] GSU= 457846041, used = 113177250 consumptionRate= 93150 bytes/s Intervalo entre pedido = 1215 
+[2025-12-12 12:37:35.091] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 7dd542b3-9660-4151-a6e0-6debd0067a66, 2, 113177250, 0, 2025-04-20T11:34:42.001Z, N7) 
+[2025-12-12 12:37:35.091] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:35.113] [INFO   ] LDAP Consumido = {1863990527} Quota total = {6442450944} 
+[2025-12-12 12:37:35.114] [INFO   ] AvailableQuota: 4578460417 
+[2025-12-12 12:37:35.256] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-20T11:34:43.001Z, N7) 
+[2025-12-12 12:37:35.256] [INFO   ] Http response with code: 201 Message {grantedUnit=446528316, resultCode=201} 
+[2025-12-12 12:37:35.281] [INFO   ] LDAP Consumido = {1977167777} Quota total = {6442450944} 
+[2025-12-12 12:37:35.282] [INFO   ] AvailableQuota: 4465283167 
+[2025-12-12 12:37:35.282] [INFO   ] GSU=446528316, consumptionRate=6208 bytes/s Intervalo entre pedido=71927 
+[2025-12-12 12:37:35.282] [INFO   ] [Truncated] GSU= 446528316, used = 59292608 consumptionRate= 6208 bytes/s Intervalo entre pedido = 9551 
+[2025-12-12 12:37:35.434] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 393f418b-bbca-4149-803b-e768a7837332, 2, 59292608, 0, 2025-04-20T14:13:54.001Z, N7) 
+[2025-12-12 12:37:35.436] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:35.462] [INFO   ] LDAP Consumido = {1977167777} Quota total = {6442450944} 
+[2025-12-12 12:37:35.462] [INFO   ] AvailableQuota: 4465283167 
+[2025-12-12 12:37:35.866] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-22T03:45:09.001Z, N7) 
+[2025-12-12 12:37:35.866] [INFO   ] Http response with code: 201 Message {grantedUnit=440599055, resultCode=201} 
+[2025-12-12 12:37:35.891] [INFO   ] LDAP Consumido = {2036460385} Quota total = {6442450944} 
+[2025-12-12 12:37:35.891] [INFO   ] AvailableQuota: 4405990559 
+[2025-12-12 12:37:35.891] [INFO   ] GSU=440599055, consumptionRate=19672 bytes/s Intervalo entre pedido=22397 
+[2025-12-12 12:37:35.892] [INFO   ] [Truncated] GSU= 440599055, used = 19672 consumptionRate= 19672 bytes/s Intervalo entre pedido = 1 
+[2025-12-12 12:37:36.039] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 44f7b4bd-5b29-42e4-91bd-0fac8e27a941, 2, 19672, 0, 2025-04-22T03:45:10.001Z, N7) 
+[2025-12-12 12:37:36.039] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:36.091] [INFO   ] LDAP Consumido = {2036460385} Quota total = {6442450944} 
+[2025-12-12 12:37:36.092] [INFO   ] AvailableQuota: 4405990559 
+[2025-12-12 12:37:36.420] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-22T03:52:46.001Z, N7) 
+[2025-12-12 12:37:36.420] [INFO   ] Http response with code: 201 Message {grantedUnit=440597088, resultCode=201} 
+[2025-12-12 12:37:36.444] [INFO   ] LDAP Consumido = {2036480057} Quota total = {6442450944} 
+[2025-12-12 12:37:36.445] [INFO   ] AvailableQuota: 4405970887 
+[2025-12-12 12:37:36.446] [INFO   ] GSU=440597088, consumptionRate=86011 bytes/s Intervalo entre pedido=5122 
+[2025-12-12 12:37:36.446] [INFO   ] [Truncated] GSU= 440597088, used = 241690910 consumptionRate= 86011 bytes/s Intervalo entre pedido = 2810 
+[2025-12-12 12:37:36.619] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 990f2d3d-889a-4ab5-95f0-e564dee8f8d0, 2, 241690910, 0, 2025-04-22T04:39:36.001Z, N7) 
+[2025-12-12 12:37:36.619] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:36.645] [INFO   ] LDAP Consumido = {2036480057} Quota total = {6442450944} 
+[2025-12-12 12:37:36.646] [INFO   ] AvailableQuota: 4405970887 
+[2025-12-12 12:37:36.822] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-23T18:17:19.001Z, N7) 
+[2025-12-12 12:37:36.822] [INFO   ] Http response with code: 201 Message {grantedUnit=416427997, resultCode=201} 
+[2025-12-12 12:37:36.845] [INFO   ] LDAP Consumido = {2278170967} Quota total = {6442450944} 
+[2025-12-12 12:37:36.845] [INFO   ] AvailableQuota: 4164279977 
+[2025-12-12 12:37:36.845] [INFO   ] GSU=416427997, consumptionRate=63542 bytes/s Intervalo entre pedido=6553 
+[2025-12-12 12:37:36.845] [INFO   ] [Truncated] GSU= 416427997, used = 63542 consumptionRate= 63542 bytes/s Intervalo entre pedido = 1 
+[2025-12-12 12:37:37.017] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 19cd77bf-a05d-4d84-ad36-8bbaafad6d21, 2, 63542, 0, 2025-04-23T18:17:20.001Z, N7) 
+[2025-12-12 12:37:37.018] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:37.042] [INFO   ] LDAP Consumido = {2278170967} Quota total = {6442450944} 
+[2025-12-12 12:37:37.043] [INFO   ] AvailableQuota: 4164279977 
+[2025-12-12 12:37:37.225] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-23T18:32:09.001Z, N7) 
+[2025-12-12 12:37:37.225] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:37.250] [INFO   ] LDAP Consumido = {2278298051} Quota total = {6442450944} 
+[2025-12-12 12:37:37.251] [INFO   ] AvailableQuota: 4164152893 
+[2025-12-12 12:37:37.251] [INFO   ] GSU=104857600, consumptionRate=89545 bytes/s Intervalo entre pedido=1171 
+[2025-12-12 12:37:37.438] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 3cbf2056-7102-4261-85bb-53135aca0b1f, 2, 104857600, 0, 2025-04-23T18:51:40.001Z, N7) 
+[2025-12-12 12:37:37.439] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:37:37.464] [INFO   ] LDAP Consumido = {2488013251} Quota total = {6442450944} 
+[2025-12-12 12:37:37.464] [INFO   ] AvailableQuota: 3954437693 
+[2025-12-12 12:37:37.464] [INFO   ] GSU=104857600, consumptionRate=507 bytes/s Intervalo entre pedido=206819 
+[2025-12-12 12:37:37.464] [INFO   ] [Truncated] GSU= 104857600, used = 13148538 consumptionRate= 507 bytes/s Intervalo entre pedido = 25934 
+[2025-12-12 12:37:37.639] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 3cbf2056-7102-4261-85bb-53135aca0b1f, 3, 13148538, 0, 2025-04-24T02:03:54.001Z, N7) 
+[2025-12-12 12:37:37.640] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:37.665] [INFO   ] LDAP Consumido = {2501161789} Quota total = {6442450944} 
+[2025-12-12 12:37:37.665] [INFO   ] AvailableQuota: 3941289155 
+[2025-12-12 12:37:37.918] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-24T13:07:26.001Z, N7) 
+[2025-12-12 12:37:37.918] [INFO   ] Http response with code: 201 Message {grantedUnit=394128915, resultCode=201} 
+[2025-12-12 12:37:37.941] [INFO   ] LDAP Consumido = {2501161789} Quota total = {6442450944} 
+[2025-12-12 12:37:37.941] [INFO   ] AvailableQuota: 3941289155 
+[2025-12-12 12:37:37.942] [INFO   ] GSU=394128915, consumptionRate=1043 bytes/s Intervalo entre pedido=377880 
+[2025-12-12 12:37:38.446] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 71be2183-a1e5-43fc-898f-bdb3130158c2, 2, 394128915, 0, 2025-04-28T22:05:26.001Z, N7) 
+[2025-12-12 12:37:38.448] [INFO   ] Http response with code: 200 Message {grantedUnit=354716024, resultCode=200} 
+[2025-12-12 12:37:38.471] [INFO   ] LDAP Consumido = {2501161789} Quota total = {6442450944} 
+[2025-12-12 12:37:38.472] [INFO   ] AvailableQuota: 3941289155 
+[2025-12-12 12:37:38.472] [INFO   ] GSU=354716024, consumptionRate=2199 bytes/s Intervalo entre pedido=161307 
+[2025-12-12 12:37:38.758] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 71be2183-a1e5-43fc-898f-bdb3130158c2, 3, 354716024, 0, 2025-04-30T18:53:53.001Z, N7) 
+[2025-12-12 12:37:38.758] [INFO   ] Http response with code: 403 Message {resultCode=403} 
+[2025-12-12 12:37:38.782] [INFO   ] LDAP Consumido = {2501161789} Quota total = {6442450944} 
+[2025-12-12 12:37:38.782] [INFO   ] AvailableQuota: 3941289155 
+[2025-12-12 12:37:38.783] [INFO   ] GSU=0, consumptionRate=116 bytes/s Intervalo entre pedido=0 
+[2025-12-12 12:37:38.947] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 71be2183-a1e5-43fc-898f-bdb3130158c2, 4, 0, 0, 2025-04-30T18:53:53.001Z, N7) 
+[2025-12-12 12:37:38.947] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:38.970] [INFO   ] LDAP Consumido = {2501161789} Quota total = {6442450944} 
+[2025-12-12 12:37:38.970] [INFO   ] AvailableQuota: 3941289155 
+[2025-12-12 12:37:39.245] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-04-30T18:53:54.001Z, N7) 
+[2025-12-12 12:37:39.245] [INFO   ] Http response with code: 201 Message {grantedUnit=122179963, resultCode=201} 
+[2025-12-12 12:37:39.268] [INFO   ] LDAP Consumido = {3998851667} Quota total = {6442450944} 
+[2025-12-12 12:37:39.269] [INFO   ] AvailableQuota: 2443599277 
+[2025-12-12 12:37:39.269] [INFO   ] GSU=122179963, consumptionRate=68 bytes/s Intervalo entre pedido=1796764 
+[2025-12-12 12:37:39.269] [INFO   ] [Truncated] GSU= 122179963, used = 5066000 consumptionRate= 68 bytes/s Intervalo entre pedido = 74500 
+[2025-12-12 12:37:39.539] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 4aed92f9-bc50-4955-8d42-0a09d9f9e0af, 2, 5066000, 0, 2025-05-01T15:35:34.001Z, N7) 
+[2025-12-12 12:37:39.539] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:39.568] [INFO   ] LDAP Consumido = {3998851667} Quota total = {6442450944} 
+[2025-12-12 12:37:39.568] [INFO   ] AvailableQuota: 2443599277 
+[2025-12-12 12:37:39.785] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-01T15:37:11.001Z, N7) 
+[2025-12-12 12:37:39.786] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:39.810] [INFO   ] LDAP Consumido = {4003917667} Quota total = {6442450944} 
+[2025-12-12 12:37:39.811] [INFO   ] AvailableQuota: 2438533277 
+[2025-12-12 12:37:39.811] [INFO   ] GSU=104857600, consumptionRate=2 bytes/s Intervalo entre pedido=52428800 
+[2025-12-12 12:37:39.811] [INFO   ] [Truncated] GSU= 104857600, used = 649786 consumptionRate= 2 bytes/s Intervalo entre pedido = 324893 
+[2025-12-12 12:37:39.972] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 2851e74c-4dfa-464a-953a-813686d8565b, 2, 649786, 0, 2025-05-05T09:52:04.001Z, N7) 
+[2025-12-12 12:37:39.972] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:39.995] [INFO   ] LDAP Consumido = {4004567453} Quota total = {6442450944} 
+[2025-12-12 12:37:39.995] [INFO   ] AvailableQuota: 2437883491 
+[2025-12-12 12:37:40.152] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-05T10:03:07.001Z, N7) 
+[2025-12-12 12:37:40.152] [INFO   ] Http response with code: 201 Message {grantedUnit=243788349, resultCode=201} 
+[2025-12-12 12:37:40.177] [INFO   ] LDAP Consumido = {4004567453} Quota total = {6442450944} 
+[2025-12-12 12:37:40.177] [INFO   ] AvailableQuota: 2437883491 
+[2025-12-12 12:37:40.177] [INFO   ] GSU=243788349, consumptionRate=98618 bytes/s Intervalo entre pedido=2472 
+[2025-12-12 12:37:40.331] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 45d94061-a517-49c2-89f8-d6093177a6bc, 2, 243788349, 0, 2025-05-05T10:44:19.001Z, N7) 
+[2025-12-12 12:37:40.332] [INFO   ] Http response with code: 200 Message {grantedUnit=219409514, resultCode=200} 
+[2025-12-12 12:37:40.363] [INFO   ] LDAP Consumido = {4004567453} Quota total = {6442450944} 
+[2025-12-12 12:37:40.363] [INFO   ] AvailableQuota: 2437883491 
+[2025-12-12 12:37:40.363] [INFO   ] GSU=219409514, consumptionRate=3453 bytes/s Intervalo entre pedido=63541 
+[2025-12-12 12:37:40.363] [INFO   ] [Truncated] GSU= 219409514, used = 73196694 consumptionRate= 3453 bytes/s Intervalo entre pedido = 21198 
+[2025-12-12 12:37:40.538] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 45d94061-a517-49c2-89f8-d6093177a6bc, 3, 73196694, 0, 2025-05-05T16:37:37.001Z, N7) 
+[2025-12-12 12:37:40.539] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:40.566] [INFO   ] LDAP Consumido = {4004567453} Quota total = {6442450944} 
+[2025-12-12 12:37:40.567] [INFO   ] AvailableQuota: 2437883491 
+[2025-12-12 12:37:40.718] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-06T03:02:00.001Z, N7) 
+[2025-12-12 12:37:40.718] [INFO   ] Http response with code: 403 Message {resultCode=403} 
+[2025-12-12 12:37:40.719] [SEVERE ] Exception Thrown while trying to send request java.lang.NullPointerException: Cannot invoke "String.lastIndexOf(int)" because "location" is null 
+[2025-12-12 12:37:40.747] [INFO   ] LDAP Consumido = {4394749190} Quota total = {6442450944} 
+[2025-12-12 12:37:40.747] [INFO   ] AvailableQuota: 2047701754 
+[2025-12-12 12:37:40.986] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-06T03:02:30.001Z, N7) 
+[2025-12-12 12:37:40.986] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:41.011] [INFO   ] LDAP Consumido = {4394749190} Quota total = {6442450944} 
+[2025-12-12 12:37:41.011] [INFO   ] AvailableQuota: 2047701754 
+[2025-12-12 12:37:41.011] [INFO   ] GSU=104857600, consumptionRate=47 bytes/s Intervalo entre pedido=2231012 
+[2025-12-12 12:37:41.011] [INFO   ] [Truncated] GSU= 104857600, used = 2144939 consumptionRate= 47 bytes/s Intervalo entre pedido = 45637 
+[2025-12-12 12:37:41.165] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 6c0a7f31-819a-4da0-a9e9-1a1c82140c1a, 2, 2144939, 0, 2025-05-06T15:43:07.001Z, N7) 
+[2025-12-12 12:37:41.165] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:41.189] [INFO   ] LDAP Consumido = {4396894129} Quota total = {6442450944} 
+[2025-12-12 12:37:41.189] [INFO   ] AvailableQuota: 2045556815 
+[2025-12-12 12:37:41.421] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-06T16:46:30.001Z, N7) 
+[2025-12-12 12:37:41.421] [INFO   ] Http response with code: 201 Message {grantedUnit=204555681, resultCode=201} 
+[2025-12-12 12:37:41.446] [INFO   ] LDAP Consumido = {4396894129} Quota total = {6442450944} 
+[2025-12-12 12:37:41.446] [INFO   ] AvailableQuota: 2045556815 
+[2025-12-12 12:37:41.446] [INFO   ] GSU=204555681, consumptionRate=826 bytes/s Intervalo entre pedido=247646 
+[2025-12-12 12:37:41.446] [INFO   ] [Truncated] GSU= 204555681, used = 101684730 consumptionRate= 826 bytes/s Intervalo entre pedido = 123105 
+[2025-12-12 12:37:41.618] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 55b9c18c-fa40-4a7e-8cb7-3a48166edb69, 2, 101684730, 0, 2025-05-08T02:58:15.001Z, N7) 
+[2025-12-12 12:37:41.618] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:41.642] [INFO   ] LDAP Consumido = {4396894129} Quota total = {6442450944} 
+[2025-12-12 12:37:41.643] [INFO   ] AvailableQuota: 2045556815 
+[2025-12-12 12:37:41.819] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-08T05:23:05.001Z, N7) 
+[2025-12-12 12:37:41.819] [INFO   ] Http response with code: 201 Message {grantedUnit=194387208, resultCode=201} 
+[2025-12-12 12:37:41.844] [INFO   ] LDAP Consumido = {4498578859} Quota total = {6442450944} 
+[2025-12-12 12:37:41.844] [INFO   ] AvailableQuota: 1943872085 
+[2025-12-12 12:37:41.844] [INFO   ] GSU=194387208, consumptionRate=900992 bytes/s Intervalo entre pedido=215 
+[2025-12-12 12:37:41.844] [INFO   ] [Truncated] GSU= 194387208, used = 27930752 consumptionRate= 900992 bytes/s Intervalo entre pedido = 31 
+[2025-12-12 12:37:41.995] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, c52e1103-958a-44be-aaeb-4195c2010b24, 2, 27930752, 0, 2025-05-08T05:23:36.001Z, N7) 
+[2025-12-12 12:37:41.995] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:42.023] [INFO   ] LDAP Consumido = {4498578859} Quota total = {6442450944} 
+[2025-12-12 12:37:42.023] [INFO   ] AvailableQuota: 1943872085 
+[2025-12-12 12:37:42.185] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-08T05:23:46.001Z, N7) 
+[2025-12-12 12:37:42.185] [INFO   ] Http response with code: 201 Message {grantedUnit=191594133, resultCode=201} 
+[2025-12-12 12:37:42.213] [INFO   ] LDAP Consumido = {4526509611} Quota total = {6442450944} 
+[2025-12-12 12:37:42.213] [INFO   ] AvailableQuota: 1915941333 
+[2025-12-12 12:37:42.213] [INFO   ] GSU=191594133, consumptionRate=3487 bytes/s Intervalo entre pedido=54945 
+[2025-12-12 12:37:42.617] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, b51fbc2b-ca8a-4b71-b61c-58e1d70f3cfe, 2, 191594133, 0, 2025-05-08T20:39:31.001Z, N7) 
+[2025-12-12 12:37:42.617] [INFO   ] Http response with code: 200 Message {grantedUnit=172434720, resultCode=200} 
+[2025-12-12 12:37:42.642] [INFO   ] LDAP Consumido = {4526509611} Quota total = {6442450944} 
+[2025-12-12 12:37:42.642] [INFO   ] AvailableQuota: 1915941333 
+[2025-12-12 12:37:42.643] [INFO   ] GSU=172434720, consumptionRate=154008 bytes/s Intervalo entre pedido=1119 
+[2025-12-12 12:37:43.051] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, b51fbc2b-ca8a-4b71-b61c-58e1d70f3cfe, 3, 172434720, 0, 2025-05-08T20:58:10.001Z, N7) 
+[2025-12-12 12:37:43.051] [INFO   ] Http response with code: 403 Message {resultCode=403} 
+[2025-12-12 12:37:43.114] [INFO   ] LDAP Consumido = {4526509611} Quota total = {6442450944} 
+[2025-12-12 12:37:43.114] [INFO   ] AvailableQuota: 1915941333 
+[2025-12-12 12:37:43.114] [INFO   ] GSU=0, consumptionRate=273011 bytes/s Intervalo entre pedido=0 
+[2025-12-12 12:37:43.441] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, b51fbc2b-ca8a-4b71-b61c-58e1d70f3cfe, 4, 0, 0, 2025-05-08T20:58:10.001Z, N7) 
+[2025-12-12 12:37:43.441] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:43.464] [INFO   ] LDAP Consumido = {4526509611} Quota total = {6442450944} 
+[2025-12-12 12:37:43.464] [INFO   ] AvailableQuota: 1915941333 
+[2025-12-12 12:37:43.746] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-09T21:59:52.001Z, N7) 
+[2025-12-12 12:37:43.747] [INFO   ] Http response with code: 201 Message {grantedUnit=59394181, resultCode=201} 
+[2025-12-12 12:37:43.772] [INFO   ] LDAP Consumido = {5254567317} Quota total = {6442450944} 
+[2025-12-12 12:37:43.773] [INFO   ] AvailableQuota: 1187883627 
+[2025-12-12 12:37:43.773] [INFO   ] GSU=59394181, consumptionRate=13444 bytes/s Intervalo entre pedido=4417 
+[2025-12-12 12:37:43.941] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 4d206748-485e-482b-8974-a37e0b028715, 2, 59394181, 0, 2025-05-09T23:13:29.001Z, N7) 
+[2025-12-12 12:37:43.942] [INFO   ] Http response with code: 403 Message {resultCode=403} 
+[2025-12-12 12:37:43.966] [INFO   ] LDAP Consumido = {5254567317} Quota total = {6442450944} 
+[2025-12-12 12:37:43.966] [INFO   ] AvailableQuota: 1187883627 
+[2025-12-12 12:37:43.966] [INFO   ] GSU=0, consumptionRate=17 bytes/s Intervalo entre pedido=0 
+[2025-12-12 12:37:44.136] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 4d206748-485e-482b-8974-a37e0b028715, 3, 0, 0, 2025-05-09T23:13:29.001Z, N7) 
+[2025-12-12 12:37:44.136] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:44.160] [INFO   ] LDAP Consumido = {5254567317} Quota total = {6442450944} 
+[2025-12-12 12:37:44.160] [INFO   ] AvailableQuota: 1187883627 
+[2025-12-12 12:37:44.317] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-09T23:13:33.001Z, N7) 
+[2025-12-12 12:37:44.317] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:37:44.341] [INFO   ] LDAP Consumido = {5373355679} Quota total = {6442450944} 
+[2025-12-12 12:37:44.342] [INFO   ] AvailableQuota: 1069095265 
+[2025-12-12 12:37:44.342] [INFO   ] AvailableQuota(1069095265) < minimum availableQuota(1102595058) 
+[2025-12-12 12:37:44.342] [INFO   ] Reactive Top-up! 
+[2025-12-12 12:37:44.389] [INFO   ] Credit account 500000505 with 2979633561 bytes 
+[2025-12-12 12:37:44.412] [INFO   ] LDAP Consumido = {5373355679} Quota total = {9422084505} 
+[2025-12-12 12:37:44.413] [INFO   ] Credit after topup = { 4048728826 } 
+[2025-12-12 12:37:44.487] [INFO   ] ESR Notification for account: 500000505 with response code: 200 
+[2025-12-12 12:37:44.487] [INFO   ] GSU=104857600, consumptionRate=839645 bytes/s Intervalo entre pedido=124 
+[2025-12-12 12:37:44.487] [INFO   ] [Truncated] GSU= 104857600, used = 839645 consumptionRate= 839645 bytes/s Intervalo entre pedido = 1 
+[2025-12-12 12:37:44.692] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 4cebd26d-80f1-4a90-8e56-0db0f75398bf, 2, 839645, 0, 2025-05-09T23:13:34.001Z, N7) 
+[2025-12-12 12:37:44.692] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:44.716] [INFO   ] LDAP Consumido = {5375034969} Quota total = {9422084505} 
+[2025-12-12 12:37:44.716] [INFO   ] AvailableQuota: 4047049536 
+[2025-12-12 12:37:44.873] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-10T08:15:59.001Z, N7) 
+[2025-12-12 12:37:44.873] [INFO   ] Http response with code: 201 Message {grantedUnit=202352476, resultCode=201} 
+[2025-12-12 12:37:44.897] [INFO   ] LDAP Consumido = {5375034969} Quota total = {9422084505} 
+[2025-12-12 12:37:44.897] [INFO   ] AvailableQuota: 4047049536 
+[2025-12-12 12:37:44.897] [INFO   ] GSU=202352476, consumptionRate=1272 bytes/s Intervalo entre pedido=159082 
+[2025-12-12 12:37:44.898] [INFO   ] [Truncated] GSU= 202352476, used = 103482288 consumptionRate= 1272 bytes/s Intervalo entre pedido = 81354 
+[2025-12-12 12:37:45.044] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, a6125328-d332-4077-98c9-731c2b42fcfb, 2, 103482288, 0, 2025-05-11T06:51:53.001Z, N7) 
+[2025-12-12 12:37:45.044] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:45.093] [INFO   ] LDAP Consumido = {5375034969} Quota total = {9422084505} 
+[2025-12-12 12:37:45.093] [INFO   ] AvailableQuota: 4047049536 
+[2025-12-12 12:37:45.229] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-11T06:53:23.001Z, N7) 
+[2025-12-12 12:37:45.229] [INFO   ] Http response with code: 201 Message {grantedUnit=394356724, resultCode=201} 
+[2025-12-12 12:37:45.253] [INFO   ] LDAP Consumido = {5478517257} Quota total = {9422084505} 
+[2025-12-12 12:37:45.253] [INFO   ] AvailableQuota: 3943567248 
+[2025-12-12 12:37:45.253] [INFO   ] GSU=394356724, consumptionRate=45 bytes/s Intervalo entre pedido=8763482 
+[2025-12-12 12:37:45.254] [INFO   ] [Truncated] GSU= 394356724, used = 2088945 consumptionRate= 45 bytes/s Intervalo entre pedido = 46421 
+[2025-12-12 12:37:45.396] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, bf594e46-6951-479d-9829-ff687b8438ed, 2, 2088945, 0, 2025-05-11T19:47:04.001Z, N7) 
+[2025-12-12 12:37:45.396] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:45.420] [INFO   ] LDAP Consumido = {5478517257} Quota total = {9422084505} 
+[2025-12-12 12:37:45.420] [INFO   ] AvailableQuota: 3943567248 
+[2025-12-12 12:37:45.562] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T03:44:48.001Z, N7) 
+[2025-12-12 12:37:45.563] [INFO   ] Http response with code: 201 Message {grantedUnit=394147830, resultCode=201} 
+[2025-12-12 12:37:45.584] [INFO   ] LDAP Consumido = {5482695147} Quota total = {9422084505} 
+[2025-12-12 12:37:45.584] [INFO   ] AvailableQuota: 3939389358 
+[2025-12-12 12:37:45.584] [INFO   ] GSU=394147830, consumptionRate=29317 bytes/s Intervalo entre pedido=13444 
+[2025-12-12 12:37:45.586] [INFO   ] [Truncated] GSU= 394147830, used = 135972246 consumptionRate= 29317 bytes/s Intervalo entre pedido = 4638 
+[2025-12-12 12:37:45.724] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, cc1ab996-4323-48e4-a0a3-e5fa503b247a, 2, 135972246, 0, 2025-05-12T05:02:06.001Z, N7) 
+[2025-12-12 12:37:45.724] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:45.749] [INFO   ] LDAP Consumido = {5482695147} Quota total = {9422084505} 
+[2025-12-12 12:37:45.749] [INFO   ] AvailableQuota: 3939389358 
+[2025-12-12 12:37:45.918] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T06:08:19.001Z, N7) 
+[2025-12-12 12:37:45.918] [INFO   ] Http response with code: 201 Message {grantedUnit=380341711, resultCode=201} 
+[2025-12-12 12:37:45.942] [INFO   ] LDAP Consumido = {5618667393} Quota total = {9422084505} 
+[2025-12-12 12:37:45.942] [INFO   ] AvailableQuota: 3803417112 
+[2025-12-12 12:37:45.942] [INFO   ] GSU=380341711, consumptionRate=3 bytes/s Intervalo entre pedido=126780568 
+[2025-12-12 12:37:45.942] [INFO   ] [Truncated] GSU= 380341711, used = 32232 consumptionRate= 3 bytes/s Intervalo entre pedido = 10744 
+[2025-12-12 12:37:46.114] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, eb78f49f-2df5-4f91-99d9-919f4854e5f7, 2, 32232, 0, 2025-05-12T09:07:23.001Z, N7) 
+[2025-12-12 12:37:46.114] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:46.140] [INFO   ] LDAP Consumido = {5618667393} Quota total = {9422084505} 
+[2025-12-12 12:37:46.140] [INFO   ] AvailableQuota: 3803417112 
+[2025-12-12 12:37:46.288] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T09:07:24.001Z, N7) 
+[2025-12-12 12:37:46.288] [INFO   ] Http response with code: 201 Message {grantedUnit=380338488, resultCode=201} 
+[2025-12-12 12:37:46.312] [INFO   ] LDAP Consumido = {5618699625} Quota total = {9422084505} 
+[2025-12-12 12:37:46.312] [INFO   ] AvailableQuota: 3803384880 
+[2025-12-12 12:37:46.312] [INFO   ] GSU=380338488, consumptionRate=9415 bytes/s Intervalo entre pedido=40397 
+[2025-12-12 12:37:46.312] [INFO   ] [Truncated] GSU= 380338488, used = 273035 consumptionRate= 9415 bytes/s Intervalo entre pedido = 29 
+[2025-12-12 12:37:46.516] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 2e5b0c8a-7925-4f09-b07c-5c89900d33df, 2, 273035, 0, 2025-05-12T09:07:53.001Z, N7) 
+[2025-12-12 12:37:46.516] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:46.542] [INFO   ] LDAP Consumido = {5618972660} Quota total = {9422084505} 
+[2025-12-12 12:37:46.543] [INFO   ] AvailableQuota: 3803111845 
+[2025-12-12 12:37:46.682] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T09:08:23.001Z, N7) 
+[2025-12-12 12:37:46.682] [INFO   ] Http response with code: 201 Message {grantedUnit=380311184, resultCode=201} 
+[2025-12-12 12:37:46.708] [INFO   ] LDAP Consumido = {5618972660} Quota total = {9422084505} 
+[2025-12-12 12:37:46.708] [INFO   ] AvailableQuota: 3803111845 
+[2025-12-12 12:37:46.708] [INFO   ] GSU=380311184, consumptionRate=8 bytes/s Intervalo entre pedido=47538896 
+[2025-12-12 12:37:46.708] [INFO   ] [Truncated] GSU= 380311184, used = 41568 consumptionRate= 8 bytes/s Intervalo entre pedido = 5196 
+[2025-12-12 12:37:46.910] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 610593fa-6d48-4a0b-8546-75fe1c324909, 2, 41568, 0, 2025-05-12T10:34:59.001Z, N7) 
+[2025-12-12 12:37:46.910] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:46.934] [INFO   ] LDAP Consumido = {5618972660} Quota total = {9422084505} 
+[2025-12-12 12:37:46.934] [INFO   ] AvailableQuota: 3803111845 
+[2025-12-12 12:37:47.095] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T13:31:29.001Z, N7) 
+[2025-12-12 12:37:47.095] [INFO   ] Http response with code: 201 Message {grantedUnit=380307027, resultCode=201} 
+[2025-12-12 12:37:47.118] [INFO   ] LDAP Consumido = {5619014228} Quota total = {9422084505} 
+[2025-12-12 12:37:47.118] [INFO   ] AvailableQuota: 3803070277 
+[2025-12-12 12:37:47.118] [INFO   ] GSU=380307027, consumptionRate=46789 bytes/s Intervalo entre pedido=8128 
+[2025-12-12 12:37:47.119] [INFO   ] [Truncated] GSU= 380307027, used = 52637625 consumptionRate= 46789 bytes/s Intervalo entre pedido = 1125 
+[2025-12-12 12:37:47.322] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 32f57b73-cbb1-487d-b388-f6f2f90295fb, 2, 52637625, 0, 2025-05-12T13:50:14.001Z, N7) 
+[2025-12-12 12:37:47.322] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:47.345] [INFO   ] LDAP Consumido = {5619014228} Quota total = {9422084505} 
+[2025-12-12 12:37:47.346] [INFO   ] AvailableQuota: 3803070277 
+[2025-12-12 12:37:47.716] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T13:51:58.001Z, N7) 
+[2025-12-12 12:37:47.716] [INFO   ] Http response with code: 201 Message {grantedUnit=375043265, resultCode=201} 
+[2025-12-12 12:37:47.741] [INFO   ] LDAP Consumido = {5671651853} Quota total = {9422084505} 
+[2025-12-12 12:37:47.741] [INFO   ] AvailableQuota: 3750432652 
+[2025-12-12 12:37:47.741] [INFO   ] GSU=375043265, consumptionRate=2433 bytes/s Intervalo entre pedido=154148 
+[2025-12-12 12:37:47.741] [INFO   ] [Truncated] GSU= 375043265, used = 14598 consumptionRate= 2433 bytes/s Intervalo entre pedido = 6 
+[2025-12-12 12:37:48.040] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 451159f0-6e72-4701-aa1a-2ed4cb60ed92, 2, 14598, 0, 2025-05-12T13:52:04.001Z, N7) 
+[2025-12-12 12:37:48.040] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:48.070] [INFO   ] LDAP Consumido = {5671651853} Quota total = {9422084505} 
+[2025-12-12 12:37:48.070] [INFO   ] AvailableQuota: 3750432652 
+[2025-12-12 12:37:48.445] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T14:01:54.001Z, N7) 
+[2025-12-12 12:37:48.446] [INFO   ] Http response with code: 201 Message {grantedUnit=375041805, resultCode=201} 
+[2025-12-12 12:37:48.470] [INFO   ] LDAP Consumido = {5671666451} Quota total = {9422084505} 
+[2025-12-12 12:37:48.470] [INFO   ] AvailableQuota: 3750418054 
+[2025-12-12 12:37:48.470] [INFO   ] GSU=375041805, consumptionRate=855153 bytes/s Intervalo entre pedido=438 
+[2025-12-12 12:37:48.745] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 9a6bddbe-b823-4d9c-9d6b-0c53e0aa1dd5, 2, 375041805, 0, 2025-05-12T14:09:12.001Z, N7) 
+[2025-12-12 12:37:48.745] [INFO   ] Http response with code: 200 Message {grantedUnit=337537624, resultCode=200} 
+[2025-12-12 12:37:48.769] [INFO   ] LDAP Consumido = {5671666451} Quota total = {9422084505} 
+[2025-12-12 12:37:48.769] [INFO   ] AvailableQuota: 3750418054 
+[2025-12-12 12:37:48.769] [INFO   ] GSU=337537624, consumptionRate=1582 bytes/s Intervalo entre pedido=213361 
+[2025-12-12 12:37:48.769] [INFO   ] [Truncated] GSU= 337537624, used = 4749164 consumptionRate= 1582 bytes/s Intervalo entre pedido = 3002 
+[2025-12-12 12:37:48.943] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 9a6bddbe-b823-4d9c-9d6b-0c53e0aa1dd5, 3, 4749164, 0, 2025-05-12T14:59:14.001Z, N7) 
+[2025-12-12 12:37:48.943] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:48.966] [INFO   ] LDAP Consumido = {5671666451} Quota total = {9422084505} 
+[2025-12-12 12:37:48.966] [INFO   ] AvailableQuota: 3750418054 
+[2025-12-12 12:37:49.153] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T15:47:00.001Z, N7) 
+[2025-12-12 12:37:49.153] [INFO   ] Http response with code: 201 Message {grantedUnit=337062708, resultCode=201} 
+[2025-12-12 12:37:49.177] [INFO   ] LDAP Consumido = {6051457420} Quota total = {9422084505} 
+[2025-12-12 12:37:49.177] [INFO   ] AvailableQuota: 3370627085 
+[2025-12-12 12:37:49.178] [INFO   ] GSU=337062708, consumptionRate=3 bytes/s Intervalo entre pedido=112354240 
+[2025-12-12 12:37:49.178] [INFO   ] [Truncated] GSU= 337062708, used = 8241 consumptionRate= 3 bytes/s Intervalo entre pedido = 2747 
+[2025-12-12 12:37:49.334] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, bd2b1e87-c97b-4036-8ba7-dc6bbac36d74, 2, 8241, 0, 2025-05-12T16:32:47.001Z, N7) 
+[2025-12-12 12:37:49.334] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:49.358] [INFO   ] LDAP Consumido = {6051457420} Quota total = {9422084505} 
+[2025-12-12 12:37:49.358] [INFO   ] AvailableQuota: 3370627085 
+[2025-12-12 12:37:49.502] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T16:32:48.001Z, N7) 
+[2025-12-12 12:37:49.503] [INFO   ] Http response with code: 201 Message {grantedUnit=168530530, resultCode=201} 
+[2025-12-12 12:37:49.526] [INFO   ] LDAP Consumido = {6051473902} Quota total = {9422084505} 
+[2025-12-12 12:37:49.526] [INFO   ] AvailableQuota: 3370610603 
+[2025-12-12 12:37:49.526] [INFO   ] GSU=168530530, consumptionRate=11 bytes/s Intervalo entre pedido=15320957 
+[2025-12-12 12:37:49.527] [INFO   ] [Truncated] GSU= 168530530, used = 1947 consumptionRate= 11 bytes/s Intervalo entre pedido = 177 
+[2025-12-12 12:37:49.688] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, e70ef75b-ef72-4d2b-98bd-173e04a23716, 2, 1947, 0, 2025-05-12T16:35:45.001Z, N7) 
+[2025-12-12 12:37:49.689] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:49.712] [INFO   ] LDAP Consumido = {6051473902} Quota total = {9422084505} 
+[2025-12-12 12:37:49.713] [INFO   ] AvailableQuota: 3370610603 
+[2025-12-12 12:37:49.849] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T16:54:59.001Z, N7) 
+[2025-12-12 12:37:49.849] [INFO   ] Http response with code: 201 Message {grantedUnit=168530335, resultCode=201} 
+[2025-12-12 12:37:49.873] [INFO   ] LDAP Consumido = {6051477796} Quota total = {9422084505} 
+[2025-12-12 12:37:49.874] [INFO   ] AvailableQuota: 3370606709 
+[2025-12-12 12:37:49.874] [INFO   ] GSU=168530335, consumptionRate=198224 bytes/s Intervalo entre pedido=850 
+[2025-12-12 12:37:50.036] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 475d1416-e942-4073-b7ae-e04a739dd8ca, 2, 168530335, 0, 2025-05-12T17:09:09.001Z, N7) 
+[2025-12-12 12:37:50.036] [INFO   ] Http response with code: 200 Message {grantedUnit=151677301, resultCode=200} 
+[2025-12-12 12:37:50.060] [INFO   ] LDAP Consumido = {6051477796} Quota total = {9422084505} 
+[2025-12-12 12:37:50.060] [INFO   ] AvailableQuota: 3370606709 
+[2025-12-12 12:37:50.060] [INFO   ] GSU=151677301, consumptionRate=396 bytes/s Intervalo entre pedido=383023 
+[2025-12-12 12:37:50.061] [INFO   ] [Truncated] GSU= 151677301, used = 1108800 consumptionRate= 396 bytes/s Intervalo entre pedido = 2800 
+[2025-12-12 12:37:50.209] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 475d1416-e942-4073-b7ae-e04a739dd8ca, 3, 1108800, 0, 2025-05-12T17:55:49.001Z, N7) 
+[2025-12-12 12:37:50.209] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:50.240] [INFO   ] LDAP Consumido = {6051477796} Quota total = {9422084505} 
+[2025-12-12 12:37:50.241] [INFO   ] AvailableQuota: 3370606709 
+[2025-12-12 12:37:50.410] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T17:55:50.001Z, N7) 
+[2025-12-12 12:37:50.410] [INFO   ] Http response with code: 201 Message {grantedUnit=151566421, resultCode=201} 
+[2025-12-12 12:37:50.433] [INFO   ] LDAP Consumido = {6390756066} Quota total = {9422084505} 
+[2025-12-12 12:37:50.434] [INFO   ] AvailableQuota: 3031328439 
+[2025-12-12 12:37:50.434] [INFO   ] GSU=151566421, consumptionRate=1545721 bytes/s Intervalo entre pedido=98 
+[2025-12-12 12:37:50.602] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, e6d5b612-6ce4-4f3e-8edc-abe016a41038, 2, 151566421, 0, 2025-05-12T17:57:28.001Z, N7) 
+[2025-12-12 12:37:50.602] [INFO   ] Http response with code: 200 Message {grantedUnit=136409779, resultCode=200} 
+[2025-12-12 12:37:50.626] [INFO   ] LDAP Consumido = {6390756066} Quota total = {9422084505} 
+[2025-12-12 12:37:50.627] [INFO   ] AvailableQuota: 3031328439 
+[2025-12-12 12:37:50.627] [INFO   ] GSU=136409779, consumptionRate=161084 bytes/s Intervalo entre pedido=846 
+[2025-12-12 12:37:50.783] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, e6d5b612-6ce4-4f3e-8edc-abe016a41038, 3, 136409779, 0, 2025-05-12T18:11:34.001Z, N7) 
+[2025-12-12 12:37:50.783] [INFO   ] Http response with code: 403 Message {resultCode=403} 
+[2025-12-12 12:37:50.810] [INFO   ] LDAP Consumido = {6390756066} Quota total = {9422084505} 
+[2025-12-12 12:37:50.810] [INFO   ] AvailableQuota: 3031328439 
+[2025-12-12 12:37:50.810] [INFO   ] GSU=0, consumptionRate=519543 bytes/s Intervalo entre pedido=0 
+[2025-12-12 12:37:50.969] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, e6d5b612-6ce4-4f3e-8edc-abe016a41038, 4, 0, 0, 2025-05-12T18:11:34.001Z, N7) 
+[2025-12-12 12:37:50.970] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:50.994] [INFO   ] LDAP Consumido = {6390756066} Quota total = {9422084505} 
+[2025-12-12 12:37:50.995] [INFO   ] AvailableQuota: 3031328439 
+[2025-12-12 12:37:51.145] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-12T18:25:54.001Z, N7) 
+[2025-12-12 12:37:51.145] [INFO   ] Http response with code: 201 Message {grantedUnit=122768801, resultCode=201} 
+[2025-12-12 12:37:51.169] [INFO   ] LDAP Consumido = {6966708466} Quota total = {9422084505} 
+[2025-12-12 12:37:51.169] [INFO   ] AvailableQuota: 2455376039 
+[2025-12-12 12:37:51.169] [INFO   ] GSU=122768801, consumptionRate=777 bytes/s Intervalo entre pedido=158003 
+[2025-12-12 12:37:51.418] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 83c61ef7-dc6b-4c1e-8924-a81dad117fa0, 2, 122768801, 0, 2025-05-14T14:19:17.001Z, N7) 
+[2025-12-12 12:37:51.418] [INFO   ] Http response with code: 200 Message {grantedUnit=110491921, resultCode=200} 
+[2025-12-12 12:37:51.441] [INFO   ] LDAP Consumido = {6966708466} Quota total = {9422084505} 
+[2025-12-12 12:37:51.441] [INFO   ] AvailableQuota: 2455376039 
+[2025-12-12 12:37:51.441] [INFO   ] GSU=110491921, consumptionRate=222018 bytes/s Intervalo entre pedido=497 
+[2025-12-12 12:37:51.623] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 83c61ef7-dc6b-4c1e-8924-a81dad117fa0, 3, 110491921, 0, 2025-05-14T14:27:34.001Z, N7) 
+[2025-12-12 12:37:51.624] [INFO   ] Http response with code: 403 Message {resultCode=403} 
+[2025-12-12 12:37:51.648] [INFO   ] LDAP Consumido = {6966708466} Quota total = {9422084505} 
+[2025-12-12 12:37:51.648] [INFO   ] AvailableQuota: 2455376039 
+[2025-12-12 12:37:51.648] [INFO   ] GSU=0, consumptionRate=21256 bytes/s Intervalo entre pedido=0 
+[2025-12-12 12:37:51.916] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 83c61ef7-dc6b-4c1e-8924-a81dad117fa0, 4, 0, 0, 2025-05-14T14:27:34.001Z, N7) 
+[2025-12-12 12:37:51.917] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:51.942] [INFO   ] LDAP Consumido = {7199969188} Quota total = {9422084505} 
+[2025-12-12 12:37:51.942] [INFO   ] AvailableQuota: 2222115317 
+[2025-12-12 12:37:52.154] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-14T17:53:58.001Z, N7) 
+[2025-12-12 12:37:52.154] [INFO   ] Http response with code: 201 Message {grantedUnit=222211531, resultCode=201} 
+[2025-12-12 12:37:52.178] [INFO   ] LDAP Consumido = {7199969188} Quota total = {9422084505} 
+[2025-12-12 12:37:52.178] [INFO   ] AvailableQuota: 2222115317 
+[2025-12-12 12:37:52.178] [INFO   ] GSU=222211531, consumptionRate=12 bytes/s Intervalo entre pedido=18517628 
+[2025-12-12 12:37:52.178] [INFO   ] [Truncated] GSU= 222211531, used = 14328 consumptionRate= 12 bytes/s Intervalo entre pedido = 1194 
+[2025-12-12 12:37:52.541] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 62511bf7-727c-4c6a-b7bf-4e30946eca8a, 2, 14328, 0, 2025-05-14T18:13:52.001Z, N7) 
+[2025-12-12 12:37:52.543] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:52.567] [INFO   ] LDAP Consumido = {7199969188} Quota total = {9422084505} 
+[2025-12-12 12:37:52.567] [INFO   ] AvailableQuota: 2222115317 
+[2025-12-12 12:37:52.927] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-14T18:38:03.001Z, N7) 
+[2025-12-12 12:37:52.927] [INFO   ] Http response with code: 201 Message {grantedUnit=111104333, resultCode=201} 
+[2025-12-12 12:37:52.952] [INFO   ] LDAP Consumido = {7199997844} Quota total = {9422084505} 
+[2025-12-12 12:37:52.952] [INFO   ] AvailableQuota: 2222086661 
+[2025-12-12 12:37:52.953] [INFO   ] GSU=111104333, consumptionRate=3 bytes/s Intervalo entre pedido=37034776 
+[2025-12-12 12:37:52.953] [INFO   ] [Truncated] GSU= 111104333, used = 48036 consumptionRate= 3 bytes/s Intervalo entre pedido = 16012 
+[2025-12-12 12:37:53.347] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 1bc6aa1c-32ac-4c2d-8f58-46d984856fba, 2, 48036, 0, 2025-05-14T23:04:55.001Z, N7) 
+[2025-12-12 12:37:53.348] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:53.374] [INFO   ] LDAP Consumido = {7199997844} Quota total = {9422084505} 
+[2025-12-12 12:37:53.374] [INFO   ] AvailableQuota: 2222086661 
+[2025-12-12 12:37:53.739] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-16T14:26:11.001Z, N7) 
+[2025-12-12 12:37:53.739] [INFO   ] Http response with code: 201 Message {grantedUnit=111099529, resultCode=201} 
+[2025-12-12 12:37:53.762] [INFO   ] LDAP Consumido = {7200093916} Quota total = {9422084505} 
+[2025-12-12 12:37:53.763] [INFO   ] AvailableQuota: 2221990589 
+[2025-12-12 12:37:53.763] [INFO   ] GSU=111099529, consumptionRate=2655 bytes/s Intervalo entre pedido=41845 
+[2025-12-12 12:37:53.763] [INFO   ] [Truncated] GSU= 111099529, used = 1664685 consumptionRate= 2655 bytes/s Intervalo entre pedido = 627 
+[2025-12-12 12:37:54.046] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 0f63c931-72ae-4e3b-8e08-51f034eef36d, 2, 1664685, 0, 2025-05-16T14:36:38.001Z, N7) 
+[2025-12-12 12:37:54.046] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:54.069] [INFO   ] LDAP Consumido = {7200093916} Quota total = {9422084505} 
+[2025-12-12 12:37:54.070] [INFO   ] AvailableQuota: 2221990589 
+[2025-12-12 12:37:54.221] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-16T14:43:07.001Z, N7) 
+[2025-12-12 12:37:54.221] [INFO   ] Http response with code: 201 Message {grantedUnit=222032590, resultCode=201} 
+[2025-12-12 12:37:54.248] [INFO   ] LDAP Consumido = {7201758601} Quota total = {9422084505} 
+[2025-12-12 12:37:54.248] [INFO   ] AvailableQuota: 2220325904 
+[2025-12-12 12:37:54.248] [INFO   ] GSU=222032590, consumptionRate=488768 bytes/s Intervalo entre pedido=454 
+[2025-12-12 12:37:54.406] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 1c34cf76-b6b3-4870-a3c7-7af059015cfa, 2, 222032590, 0, 2025-05-16T14:50:41.001Z, N7) 
+[2025-12-12 12:37:54.406] [INFO   ] Http response with code: 200 Message {grantedUnit=199829331, resultCode=200} 
+[2025-12-12 12:37:54.430] [INFO   ] LDAP Consumido = {7201758601} Quota total = {9422084505} 
+[2025-12-12 12:37:54.430] [INFO   ] AvailableQuota: 2220325904 
+[2025-12-12 12:37:54.430] [INFO   ] GSU=199829331, consumptionRate=1093 bytes/s Intervalo entre pedido=182826 
+[2025-12-12 12:37:54.430] [INFO   ] [Truncated] GSU= 199829331, used = 19748324 consumptionRate= 1093 bytes/s Intervalo entre pedido = 18068 
+[2025-12-12 12:37:54.583] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 1c34cf76-b6b3-4870-a3c7-7af059015cfa, 3, 19748324, 0, 2025-05-16T19:51:49.001Z, N7) 
+[2025-12-12 12:37:54.583] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:54.609] [INFO   ] LDAP Consumido = {7201758601} Quota total = {9422084505} 
+[2025-12-12 12:37:54.609] [INFO   ] AvailableQuota: 2220325904 
+[2025-12-12 12:37:54.747] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-16T19:51:53.001Z, N7) 
+[2025-12-12 12:37:54.747] [INFO   ] Http response with code: 201 Message {grantedUnit=97939833, resultCode=201} 
+[2025-12-12 12:37:54.771] [INFO   ] LDAP Consumido = {7463287839} Quota total = {9422084505} 
+[2025-12-12 12:37:54.771] [INFO   ] AvailableQuota: 1958796666 
+[2025-12-12 12:37:54.771] [INFO   ] GSU=97939833, consumptionRate=1146994 bytes/s Intervalo entre pedido=85 
+[2025-12-12 12:37:54.936] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 07203aa7-42b5-429d-a56d-436c630bcbb0, 2, 97939833, 0, 2025-05-16T19:53:18.001Z, N7) 
+[2025-12-12 12:37:54.937] [INFO   ] Http response with code: 200 Message {grantedUnit=88145850, resultCode=200} 
+[2025-12-12 12:37:54.961] [INFO   ] LDAP Consumido = {7463287839} Quota total = {9422084505} 
+[2025-12-12 12:37:54.961] [INFO   ] AvailableQuota: 1958796666 
+[2025-12-12 12:37:54.961] [INFO   ] GSU=88145850, consumptionRate=35791 bytes/s Intervalo entre pedido=2462 
+[2025-12-12 12:37:54.961] [INFO   ] [Truncated] GSU= 88145850, used = 19005021 consumptionRate= 35791 bytes/s Intervalo entre pedido = 531 
+[2025-12-12 12:37:55.096] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 07203aa7-42b5-429d-a56d-436c630bcbb0, 3, 19005021, 0, 2025-05-16T20:02:09.001Z, N7) 
+[2025-12-12 12:37:55.096] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:55.126] [INFO   ] LDAP Consumido = {7463287839} Quota total = {9422084505} 
+[2025-12-12 12:37:55.126] [INFO   ] AvailableQuota: 1958796666 
+[2025-12-12 12:37:55.245] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-17T00:30:21.001Z, N7) 
+[2025-12-12 12:37:55.245] [INFO   ] Http response with code: 403 Message {resultCode=403} 
+[2025-12-12 12:37:55.245] [SEVERE ] Exception Thrown while trying to send request java.lang.NullPointerException: Cannot invoke "String.lastIndexOf(int)" because "location" is null 
+[2025-12-12 12:37:55.268] [INFO   ] LDAP Consumido = {7697177547} Quota total = {9422084505} 
+[2025-12-12 12:37:55.269] [INFO   ] AvailableQuota: 1724906958 
+[2025-12-12 12:37:55.409] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-17T00:30:25.001Z, N7) 
+[2025-12-12 12:37:55.410] [INFO   ] Http response with code: 201 Message {grantedUnit=172490695, resultCode=201} 
+[2025-12-12 12:37:55.434] [INFO   ] LDAP Consumido = {7697177547} Quota total = {9422084505} 
+[2025-12-12 12:37:55.434] [INFO   ] AvailableQuota: 1724906958 
+[2025-12-12 12:37:55.434] [INFO   ] GSU=172490695, consumptionRate=1255 bytes/s Intervalo entre pedido=137442 
+[2025-12-12 12:37:55.434] [INFO   ] [Truncated] GSU= 172490695, used = 164549325 consumptionRate= 1255 bytes/s Intervalo entre pedido = 131115 
+[2025-12-12 12:37:55.607] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 603c727c-cfdc-4a2a-8c0f-f9aeb63ed758, 2, 164549325, 0, 2025-05-18T12:55:40.001Z, N7) 
+[2025-12-12 12:37:55.607] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:55.637] [INFO   ] LDAP Consumido = {7697177547} Quota total = {9422084505} 
+[2025-12-12 12:37:55.637] [INFO   ] AvailableQuota: 1724906958 
+[2025-12-12 12:37:55.795] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-19T05:35:07.001Z, N7) 
+[2025-12-12 12:37:55.795] [INFO   ] Http response with code: 201 Message {grantedUnit=156035763, resultCode=201} 
+[2025-12-12 12:37:55.822] [INFO   ] LDAP Consumido = {7861726872} Quota total = {9422084505} 
+[2025-12-12 12:37:55.822] [INFO   ] AvailableQuota: 1560357633 
+[2025-12-12 12:37:55.823] [INFO   ] GSU=156035763, consumptionRate=858956 bytes/s Intervalo entre pedido=181 
+[2025-12-12 12:37:55.986] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 41e9b626-1be3-4cb9-b0c6-95d51226f6d1, 2, 156035763, 0, 2025-05-19T05:38:08.001Z, N7) 
+[2025-12-12 12:37:55.986] [INFO   ] Http response with code: 200 Message {grantedUnit=140432187, resultCode=200} 
+[2025-12-12 12:37:56.011] [INFO   ] LDAP Consumido = {7861726872} Quota total = {9422084505} 
+[2025-12-12 12:37:56.011] [INFO   ] AvailableQuota: 1560357633 
+[2025-12-12 12:37:56.011] [INFO   ] GSU=140432187, consumptionRate=109 bytes/s Intervalo entre pedido=1288368 
+[2025-12-12 12:37:56.011] [INFO   ] [Truncated] GSU= 140432187, used = 26694645 consumptionRate= 109 bytes/s Intervalo entre pedido = 244905 
+[2025-12-12 12:37:56.174] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 41e9b626-1be3-4cb9-b0c6-95d51226f6d1, 3, 26694645, 0, 2025-05-22T01:39:53.001Z, N7) 
+[2025-12-12 12:37:56.174] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:56.198] [INFO   ] LDAP Consumido = {7861726872} Quota total = {9422084505} 
+[2025-12-12 12:37:56.198] [INFO   ] AvailableQuota: 1560357633 
+[2025-12-12 12:37:56.350] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-22T01:46:37.001Z, N7) 
+[2025-12-12 12:37:56.350] [INFO   ] Http response with code: 201 Message {grantedUnit=137762722, resultCode=201} 
+[2025-12-12 12:37:56.375] [INFO   ] LDAP Consumido = {8044457280} Quota total = {9422084505} 
+[2025-12-12 12:37:56.375] [INFO   ] AvailableQuota: 1377627225 
+[2025-12-12 12:37:56.375] [INFO   ] GSU=137762722, consumptionRate=247 bytes/s Intervalo entre pedido=557743 
+[2025-12-12 12:37:56.375] [INFO   ] [Truncated] GSU= 137762722, used = 483132 consumptionRate= 247 bytes/s Intervalo entre pedido = 1956 
+[2025-12-12 12:37:56.528] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, fa6b4e57-dfd3-4309-b909-c4b2adbb1d6a, 2, 483132, 0, 2025-05-22T02:19:13.001Z, N7) 
+[2025-12-12 12:37:56.528] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:56.553] [INFO   ] LDAP Consumido = {8044457280} Quota total = {9422084505} 
+[2025-12-12 12:37:56.553] [INFO   ] AvailableQuota: 1377627225 
+[2025-12-12 12:37:56.720] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-22T02:19:25.001Z, N7) 
+[2025-12-12 12:37:56.721] [INFO   ] Http response with code: 201 Message {grantedUnit=137714409, resultCode=201} 
+[2025-12-12 12:37:56.745] [INFO   ] LDAP Consumido = {8044940412} Quota total = {9422084505} 
+[2025-12-12 12:37:56.745] [INFO   ] AvailableQuota: 1377144093 
+[2025-12-12 12:37:56.745] [INFO   ] GSU=137714409, consumptionRate=13988 bytes/s Intervalo entre pedido=9845 
+[2025-12-12 12:37:56.918] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 396e077b-7728-4b9d-bd89-30bc61d62a76, 2, 137714409, 0, 2025-05-22T05:03:30.001Z, N7) 
+[2025-12-12 12:37:56.918] [INFO   ] Http response with code: 200 Message {grantedUnit=123942968, resultCode=200} 
+[2025-12-12 12:37:56.940] [INFO   ] LDAP Consumido = {8044940412} Quota total = {9422084505} 
+[2025-12-12 12:37:56.940] [INFO   ] AvailableQuota: 1377144093 
+[2025-12-12 12:37:56.940] [INFO   ] GSU=123942968, consumptionRate=109995 bytes/s Intervalo entre pedido=1126 
+[2025-12-12 12:37:57.115] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 396e077b-7728-4b9d-bd89-30bc61d62a76, 3, 123942968, 0, 2025-05-22T05:22:16.001Z, N7) 
+[2025-12-12 12:37:57.115] [INFO   ] Http response with code: 403 Message {resultCode=403} 
+[2025-12-12 12:37:57.139] [INFO   ] LDAP Consumido = {8044940412} Quota total = {9422084505} 
+[2025-12-12 12:37:57.139] [INFO   ] AvailableQuota: 1377144093 
+[2025-12-12 12:37:57.139] [INFO   ] GSU=0, consumptionRate=1167 bytes/s Intervalo entre pedido=0 
+[2025-12-12 12:37:57.335] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 396e077b-7728-4b9d-bd89-30bc61d62a76, 4, 0, 0, 2025-05-22T05:22:16.001Z, N7) 
+[2025-12-12 12:37:57.335] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:57.358] [INFO   ] LDAP Consumido = {8044940412} Quota total = {9422084505} 
+[2025-12-12 12:37:57.358] [INFO   ] AvailableQuota: 1377144093 
+[2025-12-12 12:37:57.627] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-22T05:25:37.001Z, N7) 
+[2025-12-12 12:37:57.627] [INFO   ] Http response with code: 201 Message {grantedUnit=111548671, resultCode=201} 
+[2025-12-12 12:37:57.651] [INFO   ] LDAP Consumido = {8306597789} Quota total = {9422084505} 
+[2025-12-12 12:37:57.651] [INFO   ] AvailableQuota: 1115486716 
+[2025-12-12 12:37:57.651] [INFO   ] GSU=111548671, consumptionRate=5345 bytes/s Intervalo entre pedido=20869 
+[2025-12-12 12:37:57.651] [INFO   ] [Truncated] GSU= 111548671, used = 924685 consumptionRate= 5345 bytes/s Intervalo entre pedido = 173 
+[2025-12-12 12:37:57.941] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 7faca73f-53e3-4f14-83b3-1b76734b95bd, 2, 924685, 0, 2025-05-22T05:28:30.001Z, N7) 
+[2025-12-12 12:37:57.941] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:57.968] [INFO   ] LDAP Consumido = {8306597789} Quota total = {9422084505} 
+[2025-12-12 12:37:57.968] [INFO   ] AvailableQuota: 1115486716 
+[2025-12-12 12:37:58.142] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-22T07:33:38.001Z, N7) 
+[2025-12-12 12:37:58.142] [INFO   ] Http response with code: 201 Message {grantedUnit=111456203, resultCode=201} 
+[2025-12-12 12:37:58.165] [INFO   ] LDAP Consumido = {8307522474} Quota total = {9422084505} 
+[2025-12-12 12:37:58.165] [INFO   ] AvailableQuota: 1114562031 
+[2025-12-12 12:37:58.166] [INFO   ] GSU=111456203, consumptionRate=99616 bytes/s Intervalo entre pedido=1118 
+[2025-12-12 12:37:58.544] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 6aabcfa2-a32a-4d7d-82fa-2e5dbdc86020, 2, 111456203, 0, 2025-05-22T07:52:16.001Z, N7) 
+[2025-12-12 12:37:58.544] [INFO   ] Http response with code: 200 Message {grantedUnit=100310582, resultCode=200} 
+[2025-12-12 12:37:58.568] [INFO   ] LDAP Consumido = {8307522474} Quota total = {9422084505} 
+[2025-12-12 12:37:58.569] [INFO   ] AvailableQuota: 1114562031 
+[2025-12-12 12:37:58.569] [INFO   ] GSU=100310582, consumptionRate=1010 bytes/s Intervalo entre pedido=99317 
+[2025-12-12 12:37:58.849] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 6aabcfa2-a32a-4d7d-82fa-2e5dbdc86020, 3, 100310582, 0, 2025-05-23T11:27:33.001Z, N7) 
+[2025-12-12 12:37:58.849] [INFO   ] Http response with code: 403 Message {resultCode=403} 
+[2025-12-12 12:37:58.874] [INFO   ] LDAP Consumido = {8307522474} Quota total = {9422084505} 
+[2025-12-12 12:37:58.874] [INFO   ] AvailableQuota: 1114562031 
+[2025-12-12 12:37:58.874] [INFO   ] GSU=0, consumptionRate=43045 bytes/s Intervalo entre pedido=0 
+[2025-12-12 12:37:59.244] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 6aabcfa2-a32a-4d7d-82fa-2e5dbdc86020, 4, 0, 0, 2025-05-23T11:27:33.001Z, N7) 
+[2025-12-12 12:37:59.244] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:37:59.268] [INFO   ] LDAP Consumido = {8307522474} Quota total = {9422084505} 
+[2025-12-12 12:37:59.269] [INFO   ] AvailableQuota: 1114562031 
+[2025-12-12 12:37:59.460] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-23T18:41:26.001Z, N7) 
+[2025-12-12 12:37:59.460] [INFO   ] Http response with code: 201 Message {grantedUnit=90279524, resultCode=201} 
+[2025-12-12 12:37:59.484] [INFO   ] LDAP Consumido = {8519289259} Quota total = {9422084505} 
+[2025-12-12 12:37:59.485] [INFO   ] AvailableQuota: 902795246 
+[2025-12-12 12:37:59.485] [INFO   ] GSU=90279524, consumptionRate=26185 bytes/s Intervalo entre pedido=3447 
+[2025-12-12 12:37:59.752] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 4e1bccd1-7247-4b56-8426-f99d2ccfa530, 2, 90279524, 0, 2025-05-23T19:38:53.001Z, N7) 
+[2025-12-12 12:37:59.752] [INFO   ] Http response with code: 200 Message {grantedUnit=81251572, resultCode=200} 
+[2025-12-12 12:37:59.778] [INFO   ] LDAP Consumido = {8519289259} Quota total = {9422084505} 
+[2025-12-12 12:37:59.778] [INFO   ] AvailableQuota: 902795246 
+[2025-12-12 12:37:59.778] [INFO   ] GSU=81251572, consumptionRate=5882 bytes/s Intervalo entre pedido=13813 
+[2025-12-12 12:37:59.939] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 4e1bccd1-7247-4b56-8426-f99d2ccfa530, 3, 81251572, 0, 2025-05-23T23:29:06.001Z, N7) 
+[2025-12-12 12:37:59.939] [INFO   ] Http response with code: 403 Message {resultCode=403} 
+[2025-12-12 12:37:59.969] [INFO   ] LDAP Consumido = {8519289259} Quota total = {9422084505} 
+[2025-12-12 12:37:59.969] [INFO   ] AvailableQuota: 902795246 
+[2025-12-12 12:37:59.969] [INFO   ] GSU=0, consumptionRate=299 bytes/s Intervalo entre pedido=0 
+[2025-12-12 12:38:00.123] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 4e1bccd1-7247-4b56-8426-f99d2ccfa530, 4, 0, 0, 2025-05-23T23:29:06.001Z, N7) 
+[2025-12-12 12:38:00.123] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:00.145] [INFO   ] LDAP Consumido = {8519289259} Quota total = {9422084505} 
+[2025-12-12 12:38:00.145] [INFO   ] AvailableQuota: 902795246 
+[2025-12-12 12:38:00.324] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-24T01:11:35.001Z, N7) 
+[2025-12-12 12:38:00.324] [INFO   ] Http response with code: 201 Message {grantedUnit=27986652, resultCode=201} 
+[2025-12-12 12:38:00.349] [INFO   ] LDAP Consumido = {8862351451} Quota total = {9422084505} 
+[2025-12-12 12:38:00.350] [INFO   ] AvailableQuota: 559733054 
+[2025-12-12 12:38:00.350] [INFO   ] GSU=27986652, consumptionRate=22 bytes/s Intervalo entre pedido=1272120 
+[2025-12-12 12:38:00.350] [INFO   ] [Truncated] GSU= 27986652, used = 220 consumptionRate= 22 bytes/s Intervalo entre pedido = 10 
+[2025-12-12 12:38:00.495] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 57b66c5a-2454-4c9b-b157-cff65c5cecdb, 2, 220, 0, 2025-05-24T01:11:45.001Z, N7) 
+[2025-12-12 12:38:00.495] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:00.521] [INFO   ] LDAP Consumido = {8862351451} Quota total = {9422084505} 
+[2025-12-12 12:38:00.521] [INFO   ] AvailableQuota: 559733054 
+[2025-12-12 12:38:00.887] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-24T01:19:30.001Z, N7) 
+[2025-12-12 12:38:00.888] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:00.912] [INFO   ] LDAP Consumido = {8862351671} Quota total = {9422084505} 
+[2025-12-12 12:38:00.914] [INFO   ] AvailableQuota: 559732834 
+[2025-12-12 12:38:00.914] [INFO   ] GSU=104857600, consumptionRate=53422 bytes/s Intervalo entre pedido=1962 
+[2025-12-12 12:38:01.097] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 298a79e3-08fb-4187-8c4f-58ffeb727054, 2, 104857600, 0, 2025-05-24T01:52:12.001Z, N7) 
+[2025-12-12 12:38:01.097] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:01.120] [INFO   ] LDAP Consumido = {8967209271} Quota total = {9422084505} 
+[2025-12-12 12:38:01.122] [INFO   ] AvailableQuota: 454875234 
+[2025-12-12 12:38:01.122] [INFO   ] GSU=104857600, consumptionRate=35803 bytes/s Intervalo entre pedido=2928 
+[2025-12-12 12:38:01.122] [INFO   ] [Truncated] GSU= 104857600, used = 13211307 consumptionRate= 35803 bytes/s Intervalo entre pedido = 369 
+[2025-12-12 12:38:01.277] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 298a79e3-08fb-4187-8c4f-58ffeb727054, 3, 13211307, 0, 2025-05-24T01:58:21.001Z, N7) 
+[2025-12-12 12:38:01.277] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:01.300] [INFO   ] LDAP Consumido = {8980420578} Quota total = {9422084505} 
+[2025-12-12 12:38:01.301] [INFO   ] AvailableQuota: 441663927 
+[2025-12-12 12:38:01.645] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-24T02:26:32.001Z, N7) 
+[2025-12-12 12:38:01.645] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:01.669] [INFO   ] LDAP Consumido = {8980420578} Quota total = {9422084505} 
+[2025-12-12 12:38:01.670] [INFO   ] AvailableQuota: 441663927 
+[2025-12-12 12:38:01.670] [INFO   ] GSU=104857600, consumptionRate=620 bytes/s Intervalo entre pedido=169125 
+[2025-12-12 12:38:01.670] [INFO   ] [Truncated] GSU= 104857600, used = 779340 consumptionRate= 620 bytes/s Intervalo entre pedido = 1257 
+[2025-12-12 12:38:01.846] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, f8cb7471-e4d8-4294-9869-842bbac6b1f0, 2, 779340, 0, 2025-05-24T02:47:29.001Z, N7) 
+[2025-12-12 12:38:01.846] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:01.873] [INFO   ] LDAP Consumido = {8981199918} Quota total = {9422084505} 
+[2025-12-12 12:38:01.873] [INFO   ] AvailableQuota: 440884587 
+[2025-12-12 12:38:02.059] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-24T02:47:31.001Z, N7) 
+[2025-12-12 12:38:02.059] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:02.082] [INFO   ] LDAP Consumido = {8981199918} Quota total = {9422084505} 
+[2025-12-12 12:38:02.082] [INFO   ] AvailableQuota: 440884587 
+[2025-12-12 12:38:02.082] [INFO   ] GSU=104857600, consumptionRate=180687 bytes/s Intervalo entre pedido=580 
+[2025-12-12 12:38:02.082] [INFO   ] [Truncated] GSU= 104857600, used = 7046793 consumptionRate= 180687 bytes/s Intervalo entre pedido = 39 
+[2025-12-12 12:38:02.319] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 31bf5607-04b0-4efb-844e-892054ffd498, 2, 7046793, 0, 2025-05-24T02:48:10.001Z, N7) 
+[2025-12-12 12:38:02.319] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:02.346] [INFO   ] LDAP Consumido = {8988246711} Quota total = {9422084505} 
+[2025-12-12 12:38:02.346] [INFO   ] AvailableQuota: 433837794 
+[2025-12-12 12:38:02.496] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-24T09:14:34.001Z, N7) 
+[2025-12-12 12:38:02.496] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:02.519] [INFO   ] LDAP Consumido = {8988246711} Quota total = {9422084505} 
+[2025-12-12 12:38:02.519] [INFO   ] AvailableQuota: 433837794 
+[2025-12-12 12:38:02.521] [INFO   ] GSU=104857600, consumptionRate=121717 bytes/s Intervalo entre pedido=861 
+[2025-12-12 12:38:02.853] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 7d7a4369-e049-43ce-a790-75d054d71296, 2, 104857600, 0, 2025-05-24T09:28:55.001Z, N7) 
+[2025-12-12 12:38:02.854] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:02.877] [INFO   ] LDAP Consumido = {9093104311} Quota total = {9422084505} 
+[2025-12-12 12:38:02.877] [INFO   ] AvailableQuota: 328980194 
+[2025-12-12 12:38:02.877] [INFO   ] GSU=104857600, consumptionRate=83827 bytes/s Intervalo entre pedido=1250 
+[2025-12-12 12:38:03.213] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 7d7a4369-e049-43ce-a790-75d054d71296, 3, 104857600, 0, 2025-05-24T09:49:45.001Z, N7) 
+[2025-12-12 12:38:03.213] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:03.236] [INFO   ] LDAP Consumido = {9197961911} Quota total = {9422084505} 
+[2025-12-12 12:38:03.237] [INFO   ] AvailableQuota: 224122594 
+[2025-12-12 12:38:03.237] [INFO   ] AvailableQuota(224122594) < minimum availableQuota(303153035) 
+[2025-12-12 12:38:03.237] [INFO   ] Reactive Top-up! 
+[2025-12-12 12:38:03.286] [INFO   ] Credit account 500000505 with 3248069017 bytes 
+[2025-12-12 12:38:03.313] [INFO   ] LDAP Consumido = {9197961911} Quota total = {12670153522} 
+[2025-12-12 12:38:03.313] [INFO   ] Credit after topup = { 3472191611 } 
+[2025-12-12 12:38:03.429] [INFO   ] ESR Notification for account: 500000505 with response code: 200 
+[2025-12-12 12:38:03.430] [INFO   ] GSU=104857600, consumptionRate=672 bytes/s Intervalo entre pedido=156038 
+[2025-12-12 12:38:03.430] [INFO   ] [Truncated] GSU= 104857600, used = 71461824 consumptionRate= 672 bytes/s Intervalo entre pedido = 106342 
+[2025-12-12 12:38:03.645] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 7d7a4369-e049-43ce-a790-75d054d71296, 4, 71461824, 0, 2025-05-25T15:22:07.001Z, N7) 
+[2025-12-12 12:38:03.645] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:03.670] [INFO   ] LDAP Consumido = {9269423735} Quota total = {12670153522} 
+[2025-12-12 12:38:03.671] [INFO   ] AvailableQuota: 3400729787 
+[2025-12-12 12:38:03.846] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-25T15:23:24.001Z, N7) 
+[2025-12-12 12:38:03.846] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:03.869] [INFO   ] LDAP Consumido = {9269423735} Quota total = {12670153522} 
+[2025-12-12 12:38:03.869] [INFO   ] AvailableQuota: 3400729787 
+[2025-12-12 12:38:03.869] [INFO   ] GSU=104857600, consumptionRate=6370 bytes/s Intervalo entre pedido=16461 
+[2025-12-12 12:38:03.869] [INFO   ] [Truncated] GSU= 104857600, used = 19453980 consumptionRate= 6370 bytes/s Intervalo entre pedido = 3054 
+[2025-12-12 12:38:04.022] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, a046ce4e-7b55-44cd-aef3-06b15bab8ffa, 2, 19453980, 0, 2025-05-25T16:14:18.001Z, N7) 
+[2025-12-12 12:38:04.022] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:04.047] [INFO   ] LDAP Consumido = {9308331695} Quota total = {12670153522} 
+[2025-12-12 12:38:04.047] [INFO   ] AvailableQuota: 3361821827 
+[2025-12-12 12:38:04.190] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-25T18:17:04.001Z, N7) 
+[2025-12-12 12:38:04.190] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:04.223] [INFO   ] LDAP Consumido = {9308331695} Quota total = {12670153522} 
+[2025-12-12 12:38:04.223] [INFO   ] AvailableQuota: 3361821827 
+[2025-12-12 12:38:04.224] [INFO   ] GSU=104857600, consumptionRate=3220 bytes/s Intervalo entre pedido=32564 
+[2025-12-12 12:38:04.452] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, cb3c1dbe-eedc-4d01-8c3c-92ef6017e448, 2, 104857600, 0, 2025-05-26T03:19:48.001Z, N7) 
+[2025-12-12 12:38:04.452] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:04.474] [INFO   ] LDAP Consumido = {9413189295} Quota total = {12670153522} 
+[2025-12-12 12:38:04.474] [INFO   ] AvailableQuota: 3256964227 
+[2025-12-12 12:38:04.474] [INFO   ] GSU=104857600, consumptionRate=502725 bytes/s Intervalo entre pedido=208 
+[2025-12-12 12:38:04.652] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, cb3c1dbe-eedc-4d01-8c3c-92ef6017e448, 3, 104857600, 0, 2025-05-26T03:23:16.001Z, N7) 
+[2025-12-12 12:38:04.652] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:04.676] [INFO   ] LDAP Consumido = {9518046895} Quota total = {12670153522} 
+[2025-12-12 12:38:04.676] [INFO   ] AvailableQuota: 3152106627 
+[2025-12-12 12:38:04.677] [INFO   ] GSU=104857600, consumptionRate=30 bytes/s Intervalo entre pedido=3495253 
+[2025-12-12 12:38:04.677] [INFO   ] [Truncated] GSU= 104857600, used = 4330800 consumptionRate= 30 bytes/s Intervalo entre pedido = 144360 
+[2025-12-12 12:38:04.827] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, cb3c1dbe-eedc-4d01-8c3c-92ef6017e448, 4, 4330800, 0, 2025-05-27T19:29:16.001Z, N7) 
+[2025-12-12 12:38:04.828] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:04.853] [INFO   ] LDAP Consumido = {9526708495} Quota total = {12670153522} 
+[2025-12-12 12:38:04.853] [INFO   ] AvailableQuota: 3143445027 
+[2025-12-12 12:38:05.004] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-27T22:43:31.001Z, N7) 
+[2025-12-12 12:38:05.004] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:05.026] [INFO   ] LDAP Consumido = {9526708495} Quota total = {12670153522} 
+[2025-12-12 12:38:05.028] [INFO   ] AvailableQuota: 3143445027 
+[2025-12-12 12:38:05.028] [INFO   ] GSU=104857600, consumptionRate=110047 bytes/s Intervalo entre pedido=952 
+[2025-12-12 12:38:05.290] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 303da7de-eb0c-4a8b-807e-24d841549a71, 2, 104857600, 0, 2025-05-27T22:59:23.001Z, N7) 
+[2025-12-12 12:38:05.291] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:05.317] [INFO   ] LDAP Consumido = {9736423695} Quota total = {12670153522} 
+[2025-12-12 12:38:05.317] [INFO   ] AvailableQuota: 2933729827 
+[2025-12-12 12:38:05.317] [INFO   ] GSU=104857600, consumptionRate=1434 bytes/s Intervalo entre pedido=73122 
+[2025-12-12 12:38:05.317] [INFO   ] [Truncated] GSU= 104857600, used = 258120 consumptionRate= 1434 bytes/s Intervalo entre pedido = 180 
+[2025-12-12 12:38:05.458] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 303da7de-eb0c-4a8b-807e-24d841549a71, 3, 258120, 0, 2025-05-27T23:02:23.001Z, N7) 
+[2025-12-12 12:38:05.458] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:05.483] [INFO   ] LDAP Consumido = {9736939935} Quota total = {12670153522} 
+[2025-12-12 12:38:05.483] [INFO   ] AvailableQuota: 2933213587 
+[2025-12-12 12:38:05.749] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-28T09:58:19.001Z, N7) 
+[2025-12-12 12:38:05.749] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:05.773] [INFO   ] LDAP Consumido = {9736939935} Quota total = {12670153522} 
+[2025-12-12 12:38:05.773] [INFO   ] AvailableQuota: 2933213587 
+[2025-12-12 12:38:05.773] [INFO   ] GSU=104857600, consumptionRate=880051 bytes/s Intervalo entre pedido=119 
+[2025-12-12 12:38:05.774] [INFO   ] [Truncated] GSU= 104857600, used = 8800510 consumptionRate= 880051 bytes/s Intervalo entre pedido = 10 
+[2025-12-12 12:38:05.924] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 82586871-5fb9-477c-a8b3-b9af014f5f76, 2, 8800510, 0, 2025-05-28T09:58:29.001Z, N7) 
+[2025-12-12 12:38:05.925] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:05.950] [INFO   ] LDAP Consumido = {9745740445} Quota total = {12670153522} 
+[2025-12-12 12:38:05.950] [INFO   ] AvailableQuota: 2924413077 
+[2025-12-12 12:38:06.185] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-29T04:56:10.001Z, N7) 
+[2025-12-12 12:38:06.185] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:06.208] [INFO   ] LDAP Consumido = {9745740445} Quota total = {12670153522} 
+[2025-12-12 12:38:06.208] [INFO   ] AvailableQuota: 2924413077 
+[2025-12-12 12:38:06.210] [INFO   ] GSU=104857600, consumptionRate=24277 bytes/s Intervalo entre pedido=4319 
+[2025-12-12 12:38:06.436] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, c0446f90-8fee-4e7b-b2e0-243977552f53, 2, 104857600, 0, 2025-05-29T06:08:09.001Z, N7) 
+[2025-12-12 12:38:06.436] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:06.461] [INFO   ] LDAP Consumido = {9850598045} Quota total = {12670153522} 
+[2025-12-12 12:38:06.461] [INFO   ] AvailableQuota: 2819555477 
+[2025-12-12 12:38:06.461] [INFO   ] GSU=104857600, consumptionRate=12741 bytes/s Intervalo entre pedido=8229 
+[2025-12-12 12:38:06.637] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, c0446f90-8fee-4e7b-b2e0-243977552f53, 3, 104857600, 0, 2025-05-29T08:25:18.001Z, N7) 
+[2025-12-12 12:38:06.637] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:06.662] [INFO   ] LDAP Consumido = {9955455645} Quota total = {12670153522} 
+[2025-12-12 12:38:06.662] [INFO   ] AvailableQuota: 2714697877 
+[2025-12-12 12:38:06.662] [INFO   ] GSU=104857600, consumptionRate=3759 bytes/s Intervalo entre pedido=27895 
+[2025-12-12 12:38:06.855] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, c0446f90-8fee-4e7b-b2e0-243977552f53, 4, 104857600, 0, 2025-05-29T16:10:13.001Z, N7) 
+[2025-12-12 12:38:06.855] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:06.882] [INFO   ] LDAP Consumido = {10165170845} Quota total = {12670153522} 
+[2025-12-12 12:38:06.882] [INFO   ] AvailableQuota: 2504982677 
+[2025-12-12 12:38:06.882] [INFO   ] GSU=104857600, consumptionRate=3446 bytes/s Intervalo entre pedido=30428 
+[2025-12-12 12:38:07.075] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, c0446f90-8fee-4e7b-b2e0-243977552f53, 5, 104857600, 0, 2025-05-30T00:37:21.001Z, N7) 
+[2025-12-12 12:38:07.075] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:07.097] [INFO   ] LDAP Consumido = {10270028445} Quota total = {12670153522} 
+[2025-12-12 12:38:07.097] [INFO   ] AvailableQuota: 2400125077 
+[2025-12-12 12:38:07.098] [INFO   ] GSU=104857600, consumptionRate=170 bytes/s Intervalo entre pedido=616809 
+[2025-12-12 12:38:07.098] [INFO   ] [Truncated] GSU= 104857600, used = 4051270 consumptionRate= 170 bytes/s Intervalo entre pedido = 23831 
+[2025-12-12 12:38:07.241] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, c0446f90-8fee-4e7b-b2e0-243977552f53, 6, 4051270, 0, 2025-05-30T07:14:32.001Z, N7) 
+[2025-12-12 12:38:07.241] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:07.265] [INFO   ] LDAP Consumido = {10274079715} Quota total = {12670153522} 
+[2025-12-12 12:38:07.265] [INFO   ] AvailableQuota: 2396073807 
+[2025-12-12 12:38:07.429] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-30T07:14:34.001Z, N7) 
+[2025-12-12 12:38:07.429] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:07.453] [INFO   ] LDAP Consumido = {10274079715} Quota total = {12670153522} 
+[2025-12-12 12:38:07.454] [INFO   ] AvailableQuota: 2396073807 
+[2025-12-12 12:38:07.454] [INFO   ] GSU=104857600, consumptionRate=140629 bytes/s Intervalo entre pedido=745 
+[2025-12-12 12:38:07.715] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, e40d2c96-0c85-4df2-a755-72ec66af2da6, 2, 104857600, 0, 2025-05-30T07:26:59.001Z, N7) 
+[2025-12-12 12:38:07.715] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:07.738] [INFO   ] LDAP Consumido = {10378937315} Quota total = {12670153522} 
+[2025-12-12 12:38:07.738] [INFO   ] AvailableQuota: 2291216207 
+[2025-12-12 12:38:07.738] [INFO   ] GSU=104857600, consumptionRate=148113 bytes/s Intervalo entre pedido=707 
+[2025-12-12 12:38:07.953] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, e40d2c96-0c85-4df2-a755-72ec66af2da6, 3, 104857600, 0, 2025-05-30T07:38:46.001Z, N7) 
+[2025-12-12 12:38:07.953] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:07.977] [INFO   ] LDAP Consumido = {10483794915} Quota total = {12670153522} 
+[2025-12-12 12:38:07.977] [INFO   ] AvailableQuota: 2186358607 
+[2025-12-12 12:38:07.977] [INFO   ] GSU=104857600, consumptionRate=26292 bytes/s Intervalo entre pedido=3988 
+[2025-12-12 12:38:08.253] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, e40d2c96-0c85-4df2-a755-72ec66af2da6, 4, 104857600, 0, 2025-05-30T08:45:14.001Z, N7) 
+[2025-12-12 12:38:08.254] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:08.277] [INFO   ] LDAP Consumido = {10588652515} Quota total = {12670153522} 
+[2025-12-12 12:38:08.277] [INFO   ] AvailableQuota: 2081501007 
+[2025-12-12 12:38:08.277] [INFO   ] GSU=104857600, consumptionRate=863997 bytes/s Intervalo entre pedido=121 
+[2025-12-12 12:38:08.556] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, e40d2c96-0c85-4df2-a755-72ec66af2da6, 5, 104857600, 0, 2025-05-30T08:47:15.001Z, N7) 
+[2025-12-12 12:38:08.556] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:08.580] [INFO   ] LDAP Consumido = {10693510115} Quota total = {12670153522} 
+[2025-12-12 12:38:08.581] [INFO   ] AvailableQuota: 1976643407 
+[2025-12-12 12:38:08.581] [INFO   ] GSU=104857600, consumptionRate=338 bytes/s Intervalo entre pedido=310229 
+[2025-12-12 12:38:08.581] [INFO   ] [Truncated] GSU= 104857600, used = 608738 consumptionRate= 338 bytes/s Intervalo entre pedido = 1801 
+[2025-12-12 12:38:08.791] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, e40d2c96-0c85-4df2-a755-72ec66af2da6, 6, 608738, 0, 2025-05-30T09:17:16.001Z, N7) 
+[2025-12-12 12:38:08.791] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:08.819] [INFO   ] LDAP Consumido = {10694118853} Quota total = {12670153522} 
+[2025-12-12 12:38:08.820] [INFO   ] AvailableQuota: 1976034669 
+[2025-12-12 12:38:09.011] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-31T03:34:42.001Z, N7) 
+[2025-12-12 12:38:09.011] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:09.035] [INFO   ] LDAP Consumido = {10694118853} Quota total = {12670153522} 
+[2025-12-12 12:38:09.035] [INFO   ] AvailableQuota: 1976034669 
+[2025-12-12 12:38:09.035] [INFO   ] GSU=104857600, consumptionRate=65016 bytes/s Intervalo entre pedido=1612 
+[2025-12-12 12:38:09.205] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, e2701685-bde3-4d10-b073-e1003ea9aa1f, 2, 104857600, 0, 2025-05-31T04:01:34.001Z, N7) 
+[2025-12-12 12:38:09.205] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:09.231] [INFO   ] LDAP Consumido = {10798976453} Quota total = {12670153522} 
+[2025-12-12 12:38:09.231] [INFO   ] AvailableQuota: 1871177069 
+[2025-12-12 12:38:09.231] [INFO   ] GSU=104857600, consumptionRate=12350 bytes/s Intervalo entre pedido=8490 
+[2025-12-12 12:38:09.231] [INFO   ] [Truncated] GSU= 104857600, used = 24996400 consumptionRate= 12350 bytes/s Intervalo entre pedido = 2024 
+[2025-12-12 12:38:09.408] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, e2701685-bde3-4d10-b073-e1003ea9aa1f, 3, 24996400, 0, 2025-05-31T04:35:18.001Z, N7) 
+[2025-12-12 12:38:09.408] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:09.433] [INFO   ] LDAP Consumido = {10823972853} Quota total = {12670153522} 
+[2025-12-12 12:38:09.433] [INFO   ] AvailableQuota: 1846180669 
+[2025-12-12 12:38:09.590] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-31T04:35:44.001Z, N7) 
+[2025-12-12 12:38:09.590] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:09.614] [INFO   ] LDAP Consumido = {10823972853} Quota total = {12670153522} 
+[2025-12-12 12:38:09.615] [INFO   ] AvailableQuota: 1846180669 
+[2025-12-12 12:38:09.615] [INFO   ] GSU=104857600, consumptionRate=50407 bytes/s Intervalo entre pedido=2080 
+[2025-12-12 12:38:09.615] [INFO   ] [Truncated] GSU= 104857600, used = 504070 consumptionRate= 50407 bytes/s Intervalo entre pedido = 10 
+[2025-12-12 12:38:09.759] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, f05687d5-712b-44b2-abba-ee384b41444e, 2, 504070, 0, 2025-05-31T04:35:54.001Z, N7) 
+[2025-12-12 12:38:09.759] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:09.782] [INFO   ] LDAP Consumido = {10824476923} Quota total = {12670153522} 
+[2025-12-12 12:38:09.782] [INFO   ] AvailableQuota: 1845676599 
+[2025-12-12 12:38:09.944] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-31T09:36:13.001Z, N7) 
+[2025-12-12 12:38:09.944] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:09.968] [INFO   ] LDAP Consumido = {10824476923} Quota total = {12670153522} 
+[2025-12-12 12:38:09.968] [INFO   ] AvailableQuota: 1845676599 
+[2025-12-12 12:38:09.968] [INFO   ] GSU=104857600, consumptionRate=70888 bytes/s Intervalo entre pedido=1479 
+[2025-12-12 12:38:10.283] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 0f082243-9651-44b4-9868-3e88c553c154, 2, 104857600, 0, 2025-05-31T10:00:52.001Z, N7) 
+[2025-12-12 12:38:10.283] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:10.306] [INFO   ] LDAP Consumido = {10929334523} Quota total = {12670153522} 
+[2025-12-12 12:38:10.306] [INFO   ] AvailableQuota: 1740818999 
+[2025-12-12 12:38:10.306] [INFO   ] GSU=104857600, consumptionRate=87039 bytes/s Intervalo entre pedido=1204 
+[2025-12-12 12:38:10.516] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 0f082243-9651-44b4-9868-3e88c553c154, 3, 104857600, 0, 2025-05-31T10:20:56.001Z, N7) 
+[2025-12-12 12:38:10.516] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:10.541] [INFO   ] LDAP Consumido = {11034192123} Quota total = {12670153522} 
+[2025-12-12 12:38:10.541] [INFO   ] AvailableQuota: 1635961399 
+[2025-12-12 12:38:10.541] [INFO   ] GSU=104857600, consumptionRate=13724 bytes/s Intervalo entre pedido=7640 
+[2025-12-12 12:38:10.736] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 0f082243-9651-44b4-9868-3e88c553c154, 4, 104857600, 0, 2025-05-31T12:28:16.001Z, N7) 
+[2025-12-12 12:38:10.736] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:10.761] [INFO   ] LDAP Consumido = {11139049723} Quota total = {12670153522} 
+[2025-12-12 12:38:10.761] [INFO   ] AvailableQuota: 1531103799 
+[2025-12-12 12:38:10.761] [INFO   ] GSU=104857600, consumptionRate=356 bytes/s Intervalo entre pedido=294543 
+[2025-12-12 12:38:10.761] [INFO   ] [Truncated] GSU= 104857600, used = 24735236 consumptionRate= 356 bytes/s Intervalo entre pedido = 69481 
+[2025-12-12 12:38:10.912] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 0f082243-9651-44b4-9868-3e88c553c154, 5, 24735236, 0, 2025-06-01T07:46:17.001Z, N7) 
+[2025-12-12 12:38:10.912] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:10.938] [INFO   ] LDAP Consumido = {11163784959} Quota total = {12670153522} 
+[2025-12-12 12:38:10.938] [INFO   ] AvailableQuota: 1506368563 
+[2025-12-12 12:38:11.091] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-01T15:01:34.001Z, N7) 
+[2025-12-12 12:38:11.092] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:11.118] [INFO   ] LDAP Consumido = {11163784959} Quota total = {12670153522} 
+[2025-12-12 12:38:11.118] [INFO   ] AvailableQuota: 1506368563 
+[2025-12-12 12:38:11.118] [INFO   ] GSU=104857600, consumptionRate=10865 bytes/s Intervalo entre pedido=9650 
+[2025-12-12 12:38:11.118] [INFO   ] [Truncated] GSU= 104857600, used = 17851195 consumptionRate= 10865 bytes/s Intervalo entre pedido = 1643 
+[2025-12-12 12:38:11.266] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 9322a80c-83d3-48db-93f7-30f83d0e0951, 2, 17851195, 0, 2025-06-01T15:28:57.001Z, N7) 
+[2025-12-12 12:38:11.266] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:11.290] [INFO   ] LDAP Consumido = {11181636154} Quota total = {12670153522} 
+[2025-12-12 12:38:11.290] [INFO   ] AvailableQuota: 1488517368 
+[2025-12-12 12:38:11.528] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-01T15:28:58.001Z, N7) 
+[2025-12-12 12:38:11.528] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:11.552] [INFO   ] LDAP Consumido = {11181636154} Quota total = {12670153522} 
+[2025-12-12 12:38:11.553] [INFO   ] AvailableQuota: 1488517368 
+[2025-12-12 12:38:11.553] [INFO   ] GSU=104857600, consumptionRate=25264 bytes/s Intervalo entre pedido=4150 
+[2025-12-12 12:38:11.915] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 3d19ab99-2b9f-4f88-872e-20a91af2789b, 2, 104857600, 0, 2025-06-01T16:38:08.001Z, N7) 
+[2025-12-12 12:38:11.915] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:11.941] [INFO   ] LDAP Consumido = {11391351354} Quota total = {12670153522} 
+[2025-12-12 12:38:11.942] [INFO   ] AvailableQuota: 1278802168 
+[2025-12-12 12:38:11.942] [INFO   ] GSU=104857600, consumptionRate=156657 bytes/s Intervalo entre pedido=669 
+[2025-12-12 12:38:11.942] [INFO   ] [Truncated] GSU= 104857600, used = 44803902 consumptionRate= 156657 bytes/s Intervalo entre pedido = 286 
+[2025-12-12 12:38:12.102] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 3d19ab99-2b9f-4f88-872e-20a91af2789b, 3, 44803902, 0, 2025-06-01T16:42:54.001Z, N7) 
+[2025-12-12 12:38:12.103] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:12.127] [INFO   ] LDAP Consumido = {11480959158} Quota total = {12670153522} 
+[2025-12-12 12:38:12.127] [INFO   ] AvailableQuota: 1189194364 
+[2025-12-12 12:38:12.375] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-01T16:50:45.001Z, N7) 
+[2025-12-12 12:38:12.375] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:12.400] [INFO   ] LDAP Consumido = {11480959158} Quota total = {12670153522} 
+[2025-12-12 12:38:12.401] [INFO   ] AvailableQuota: 1189194364 
+[2025-12-12 12:38:12.401] [INFO   ] GSU=104857600, consumptionRate=7074 bytes/s Intervalo entre pedido=14822 
+[2025-12-12 12:38:12.401] [INFO   ] [Truncated] GSU= 104857600, used = 35426592 consumptionRate= 7074 bytes/s Intervalo entre pedido = 5008 
+[2025-12-12 12:38:12.619] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, f76edba3-62de-48f9-a2b2-5e0a4ce40cf3, 2, 35426592, 0, 2025-06-01T18:14:13.001Z, N7) 
+[2025-12-12 12:38:12.619] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:12.644] [INFO   ] LDAP Consumido = {11551812342} Quota total = {12670153522} 
+[2025-12-12 12:38:12.644] [INFO   ] AvailableQuota: 1118341180 
+[2025-12-12 12:38:12.923] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-01T18:14:14.001Z, N7) 
+[2025-12-12 12:38:12.923] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:12.949] [INFO   ] LDAP Consumido = {11551812342} Quota total = {12670153522} 
+[2025-12-12 12:38:12.949] [INFO   ] AvailableQuota: 1118341180 
+[2025-12-12 12:38:12.949] [INFO   ] GSU=104857600, consumptionRate=2 bytes/s Intervalo entre pedido=52428800 
+[2025-12-12 12:38:12.949] [INFO   ] [Truncated] GSU= 104857600, used = 35766 consumptionRate= 2 bytes/s Intervalo entre pedido = 17883 
+[2025-12-12 12:38:13.201] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 693b30b9-069a-475c-8bbc-60b176b4ae49, 2, 35766, 0, 2025-06-01T23:12:17.001Z, N7) 
+[2025-12-12 12:38:13.201] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:13.241] [INFO   ] LDAP Consumido = {11551883874} Quota total = {12670153522} 
+[2025-12-12 12:38:13.241] [INFO   ] AvailableQuota: 1118269648 
+[2025-12-12 12:38:13.546] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-02T03:41:50.001Z, N7) 
+[2025-12-12 12:38:13.546] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:13.570] [INFO   ] LDAP Consumido = {11551883874} Quota total = {12670153522} 
+[2025-12-12 12:38:13.570] [INFO   ] AvailableQuota: 1118269648 
+[2025-12-12 12:38:13.570] [INFO   ] GSU=104857600, consumptionRate=287 bytes/s Intervalo entre pedido=365357 
+[2025-12-12 12:38:13.570] [INFO   ] [Truncated] GSU= 104857600, used = 3185987 consumptionRate= 287 bytes/s Intervalo entre pedido = 11101 
+[2025-12-12 12:38:13.716] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 02e1aaad-5435-48a5-9fe8-bbf1de8fd01e, 2, 3185987, 0, 2025-06-02T06:46:51.001Z, N7) 
+[2025-12-12 12:38:13.716] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:13.741] [INFO   ] LDAP Consumido = {11555069861} Quota total = {12670153522} 
+[2025-12-12 12:38:13.742] [INFO   ] AvailableQuota: 1115083661 
+[2025-12-12 12:38:13.889] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-02T06:51:03.001Z, N7) 
+[2025-12-12 12:38:13.889] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:13.913] [INFO   ] LDAP Consumido = {11555069861} Quota total = {12670153522} 
+[2025-12-12 12:38:13.913] [INFO   ] AvailableQuota: 1115083661 
+[2025-12-12 12:38:13.913] [INFO   ] GSU=104857600, consumptionRate=63481 bytes/s Intervalo entre pedido=1651 
+[2025-12-12 12:38:14.097] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, 662246e0-b005-415a-b96a-9828df7461b6, 2, 104857600, 0, 2025-06-02T07:18:34.001Z, N7) 
+[2025-12-12 12:38:14.097] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2025-12-12 12:38:14.121] [INFO   ] LDAP Consumido = {11659927461} Quota total = {12670153522} 
+[2025-12-12 12:38:14.121] [INFO   ] AvailableQuota: 1010226061 
+[2025-12-12 12:38:14.121] [INFO   ] GSU=104857600, consumptionRate=601 bytes/s Intervalo entre pedido=174471 
+[2025-12-12 12:38:14.121] [INFO   ] [Truncated] GSU= 104857600, used = 5216079 consumptionRate= 601 bytes/s Intervalo entre pedido = 8679 
+[2025-12-12 12:38:14.259] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 662246e0-b005-415a-b96a-9828df7461b6, 3, 5216079, 0, 2025-06-02T09:43:13.001Z, N7) 
+[2025-12-12 12:38:14.259] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:14.284] [INFO   ] LDAP Consumido = {11665143540} Quota total = {12670153522} 
+[2025-12-12 12:38:14.284] [INFO   ] AvailableQuota: 1005009982 
+[2025-12-12 12:38:14.448] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-03T02:15:43.001Z, N7) 
+[2025-12-12 12:38:14.449] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:14.473] [INFO   ] LDAP Consumido = {11665143540} Quota total = {12670153522} 
+[2025-12-12 12:38:14.474] [INFO   ] AvailableQuota: 1005009982 
+[2025-12-12 12:38:14.474] [INFO   ] GSU=104857600, consumptionRate=390 bytes/s Intervalo entre pedido=268865 
+[2025-12-12 12:38:14.474] [INFO   ] [Truncated] GSU= 104857600, used = 698490 consumptionRate= 390 bytes/s Intervalo entre pedido = 1791 
+[2025-12-12 12:38:14.627] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 770ea2e7-0246-476f-bd21-276583e78cd3, 2, 698490, 0, 2025-06-03T02:45:34.001Z, N7) 
+[2025-12-12 12:38:14.627] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:14.650] [INFO   ] LDAP Consumido = {11665842030} Quota total = {12670153522} 
+[2025-12-12 12:38:14.650] [INFO   ] AvailableQuota: 1004311492 
+[2025-12-12 12:38:14.843] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-03T02:53:26.001Z, N7) 
+[2025-12-12 12:38:14.843] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:14.865] [INFO   ] LDAP Consumido = {11665842030} Quota total = {12670153522} 
+[2025-12-12 12:38:14.865] [INFO   ] AvailableQuota: 1004311492 
+[2025-12-12 12:38:14.866] [INFO   ] GSU=104857600, consumptionRate=474 bytes/s Intervalo entre pedido=221218 
+[2025-12-12 12:38:14.866] [INFO   ] [Truncated] GSU= 104857600, used = 262596 consumptionRate= 474 bytes/s Intervalo entre pedido = 554 
+[2025-12-12 12:38:15.016] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 6aab5550-2515-4720-b9ff-88f3d54a6896, 2, 262596, 0, 2025-06-03T03:02:40.001Z, N7) 
+[2025-12-12 12:38:15.016] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:15.042] [INFO   ] LDAP Consumido = {11666104626} Quota total = {12670153522} 
+[2025-12-12 12:38:15.042] [INFO   ] AvailableQuota: 1004048896 
+[2025-12-12 12:38:15.292] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-03T03:02:55.001Z, N7) 
+[2025-12-12 12:38:15.292] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2025-12-12 12:38:15.315] [INFO   ] LDAP Consumido = {11666104626} Quota total = {12670153522} 
+[2025-12-12 12:38:15.316] [INFO   ] AvailableQuota: 1004048896 
+[2025-12-12 12:38:15.316] [INFO   ] GSU=104857600, consumptionRate=3572 bytes/s Intervalo entre pedido=29355 
+[2025-12-12 12:38:15.316] [INFO   ] [Truncated] GSU= 104857600, used = 38141816 consumptionRate= 3572 bytes/s Intervalo entre pedido = 10678 
+[2025-12-12 12:38:15.570] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 8bc1c900-88ab-4e8e-b3d2-1a184a2c1905, 2, 38141816, 0, 2025-06-03T06:00:53.001Z, N7) 
+[2025-12-12 12:38:15.570] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:15.593] [INFO   ] LDAP Consumido = {11704246442} Quota total = {12670153522} 
+[2025-12-12 12:38:15.593] [INFO   ] AvailableQuota: 965907080 
+[2025-12-12 12:38:15.780] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-03T06:18:11.001Z, N7) 
+[2025-12-12 12:38:15.781] [INFO   ] Http response with code: 201 Message {grantedUnit=96590708, resultCode=201} 
+[2025-12-12 12:38:15.805] [INFO   ] LDAP Consumido = {11704246442} Quota total = {12670153522} 
+[2025-12-12 12:38:15.805] [INFO   ] AvailableQuota: 965907080 
+[2025-12-12 12:38:15.806] [INFO   ] GSU=96590708, consumptionRate=1965774 bytes/s Intervalo entre pedido=49 
+[2025-12-12 12:38:15.960] [INFO   ] onlineChargingData(500000505, UPDATE_REQUEST, cbf8fc16-b53a-49e4-9667-c8d520261a66, 2, 96590708, 0, 2025-06-03T06:19:00.001Z, N7) 
+[2025-12-12 12:38:15.962] [INFO   ] Http response with code: 200 Message {grantedUnit=86931637, resultCode=200} 
+[2025-12-12 12:38:15.986] [INFO   ] LDAP Consumido = {11704246442} Quota total = {12670153522} 
+[2025-12-12 12:38:15.986] [INFO   ] AvailableQuota: 965907080 
+[2025-12-12 12:38:15.986] [INFO   ] GSU=86931637, consumptionRate=388 bytes/s Intervalo entre pedido=224050 
+[2025-12-12 12:38:15.986] [INFO   ] [Truncated] GSU= 86931637, used = 32079064 consumptionRate= 388 bytes/s Intervalo entre pedido = 82678 
+[2025-12-12 12:38:16.492] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, cbf8fc16-b53a-49e4-9667-c8d520261a66, 3, 32079064, 0, 2025-06-04T05:16:58.001Z, N7) 
+[2025-12-12 12:38:16.492] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:16.516] [INFO   ] LDAP Consumido = {11704246442} Quota total = {12670153522} 
+[2025-12-12 12:38:16.516] [INFO   ] AvailableQuota: 965907080 
+[2025-12-12 12:38:16.699] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-04T06:16:08.001Z, N7) 
+[2025-12-12 12:38:16.699] [INFO   ] Http response with code: 201 Message {grantedUnit=83723730, resultCode=201} 
+[2025-12-12 12:38:16.723] [INFO   ] LDAP Consumido = {11832916214} Quota total = {12670153522} 
+[2025-12-12 12:38:16.723] [INFO   ] AvailableQuota: 837237308 
+[2025-12-12 12:38:16.723] [INFO   ] AvailableQuota(837237308) < minimum availableQuota(870715830) 
+[2025-12-12 12:38:16.723] [INFO   ] Reactive Top-up! 
+[2025-12-12 12:38:16.771] [INFO   ] Credit account 500000505 with 2093796556 bytes 
+[2025-12-12 12:38:16.795] [INFO   ] LDAP Consumido = {11832916214} Quota total = {14763950078} 
+[2025-12-12 12:38:16.796] [INFO   ] Credit after topup = { 2931033864 } 
+[2025-12-12 12:38:16.857] [INFO   ] ESR Notification for account: 500000505 with response code: 200 
+[2025-12-12 12:38:16.857] [INFO   ] GSU=83723730, consumptionRate=1420 bytes/s Intervalo entre pedido=58960 
+[2025-12-12 12:38:16.858] [INFO   ] [Truncated] GSU= 83723730, used = 11071740 consumptionRate= 1420 bytes/s Intervalo entre pedido = 7797 
+[2025-12-12 12:38:17.118] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, f1ca2eeb-394b-4afc-924f-f3b520105092, 2, 11071740, 0, 2025-06-04T08:26:05.001Z, N7) 
+[2025-12-12 12:38:17.118] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:17.142] [INFO   ] LDAP Consumido = {11832916214} Quota total = {14763950078} 
+[2025-12-12 12:38:17.142] [INFO   ] AvailableQuota: 2931033864 
+[2025-12-12 12:38:17.316] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-04T08:40:17.001Z, N7) 
+[2025-12-12 12:38:17.316] [INFO   ] Http response with code: 201 Message {grantedUnit=291996212, resultCode=201} 
+[2025-12-12 12:38:17.340] [INFO   ] LDAP Consumido = {11843987954} Quota total = {14763950078} 
+[2025-12-12 12:38:17.340] [INFO   ] AvailableQuota: 2919962124 
+[2025-12-12 12:38:17.340] [INFO   ] GSU=291996212, consumptionRate=2558 bytes/s Intervalo entre pedido=114150 
+[2025-12-12 12:38:17.340] [INFO   ] [Truncated] GSU= 291996212, used = 2683342 consumptionRate= 2558 bytes/s Intervalo entre pedido = 1049 
+[2025-12-12 12:38:17.544] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, c9d8678c-7f13-4c8e-a27c-16e19deaf769, 2, 2683342, 0, 2025-06-04T08:57:46.001Z, N7) 
+[2025-12-12 12:38:17.545] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:17.567] [INFO   ] LDAP Consumido = {11843987954} Quota total = {14763950078} 
+[2025-12-12 12:38:17.568] [INFO   ] AvailableQuota: 2919962124 
+[2025-12-12 12:38:18.022] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-04T11:51:14.001Z, N7) 
+[2025-12-12 12:38:18.022] [INFO   ] Http response with code: 201 Message {grantedUnit=291727878, resultCode=201} 
+[2025-12-12 12:38:18.045] [INFO   ] LDAP Consumido = {11846671296} Quota total = {14763950078} 
+[2025-12-12 12:38:18.045] [INFO   ] AvailableQuota: 2917278782 
+[2025-12-12 12:38:18.045] [INFO   ] GSU=291727878, consumptionRate=4 bytes/s Intervalo entre pedido=72931968 
+[2025-12-12 12:38:18.045] [INFO   ] [Truncated] GSU= 291727878, used = 4 consumptionRate= 4 bytes/s Intervalo entre pedido = 1 
+[2025-12-12 12:38:18.334] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, 256f4c77-7a71-4056-a670-a7bc2cd2c05c, 2, 4, 0, 2025-06-04T11:51:15.001Z, N7) 
+[2025-12-12 12:38:18.334] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:18.358] [INFO   ] LDAP Consumido = {11846671296} Quota total = {14763950078} 
+[2025-12-12 12:38:18.358] [INFO   ] AvailableQuota: 2917278782 
+[2025-12-12 12:38:18.568] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-04T22:31:36.001Z, N7) 
+[2025-12-12 12:38:18.568] [INFO   ] Http response with code: 201 Message {grantedUnit=291727877, resultCode=201} 
+[2025-12-12 12:38:18.593] [INFO   ] LDAP Consumido = {11846671300} Quota total = {14763950078} 
+[2025-12-12 12:38:18.594] [INFO   ] AvailableQuota: 2917278778 
+[2025-12-12 12:38:18.594] [INFO   ] GSU=291727877, consumptionRate=955400 bytes/s Intervalo entre pedido=305 
+[2025-12-12 12:38:18.594] [INFO   ] [Truncated] GSU= 291727877, used = 116558800 consumptionRate= 955400 bytes/s Intervalo entre pedido = 122 
+[2025-12-12 12:38:18.834] [INFO   ] onlineChargingData(500000505, TERMINATION_REQUEST, b9233ed5-4680-4394-8c6b-8b37ffa12d69, 2, 116558800, 0, 2025-06-04T22:33:38.001Z, N7) 
+[2025-12-12 12:38:18.834] [INFO   ] Http response with code: 204 Message {resultCode=204} 
+[2025-12-12 12:38:18.870] [INFO   ] LDAP Consumido = {11846671300} Quota total = {14763950078} 
+[2025-12-12 12:38:18.870] [INFO   ] AvailableQuota: 2917278778 
+[2025-12-12 12:38:19.159] [INFO   ] onlineChargingData(500000505, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-06-04T22:54:25.001Z, N7) 
+[2025-12-12 12:38:19.159] [INFO   ] Http response with code: 201 Message {grantedUnit=134208058, resultCode=201} 
+[2025-12-12 12:38:19.189] [INFO   ] LDAP Consumido = {12079788900} Quota total = {14763950078} 
+[2025-12-12 12:38:19.189] [INFO   ] AvailableQuota: 2684161178 
+[2025-12-12 12:38:19.190] [INFO   ] GSU=134208058, consumptionRate=2683 bytes/s Intervalo entre pedido=50021 
+[2025-12-12 12:38:19.190] [INFO   ] [Truncated] GSU= 134208058, used = 19084179 consumptionRate= 2683 bytes/s Intervalo entre pedido = 7113 

@@ -1,0 +1,77 @@
+client_groups:              #We can define several client groups here
+  - name: GROUP_SMS
+    number_of_clients: 50
+    initial:
+      MSISDN: 500000100
+      account: "500000100"
+    client_type:
+      ammount: 0
+      initial_amount:
+        random:
+          mean: 114
+          std: 46
+      services:
+        - serviceContextId: message@huawei.com
+          usage_pattern: SESSION_LESS_PATTERN
+      topup:
+        usage_pattern: ANOTHER_USAGE_PATTERN_POSSIBLY_TOPUP_PATTERN
+
+
+usage_patterns:
+  - name: SESSION_LESS_PATTERN
+    request_interval: #Time interval between requests
+      random:
+        mean: 173
+        std: 58
+      unit: SECONDS
+    ammount: 10 #This will probably not be used since it will be a random amount within given quota
+
+  - name: ANOTHER_USAGE_PATTERN_POSSIBLY_TOPUP_PATTERN
+    is_reactive: true # Used only for topup.
+    request_interval: #Time interval between requests
+      random:
+        mean: 17
+        std: 32
+      unit: SECONDS
+    ammount: 1000 #In this case it would be the topup ammount
+    request_ammount:
+      random:
+        mean: 124
+        std: 82
+      unit: SECONDS
+
+  
+
+phr_setup:
+  required_entries_to_start: 1
+  required_client_age_to_start: 
+    ammount: '1'
+    unit: MINUTES
+  
+  threshold_refresh_period:
+    ammount: 10
+    unit: SECONDS
+
+  losses_table_refresh_period:
+    ammount: 1
+    unit: SECONDS
+  
+  losses_table_retention_time:
+    ammount: 60
+    unit: DAYS
+  risk:
+    serviceContextId:
+      - 7.APC@telecom.pt: 0.4 #VOICE
+      - 8.32251@3gpp.org: 0.6 #DADOS
+      - 8.32274@3gpp.org: 0.7 #SMS
+      - message@huawei.com: 0.7 #SMS
+      - 8.32270@3gpp.org: 0.8 #MMS
+    default: 0.5
+
+test_duration:
+  ammount: 24
+  unit: HOURS
+
+
+
+

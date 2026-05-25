@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:agreement xmlns:ns2="http://www.ptinovacao.pt/qntintegration/mii">
+    <id>{{AGREEMENT}}</id>
+    <product_offering_spec_id>5d283c62f1f179c951262098</product_offering_spec_id>
+    <usage_charges>
+        <ns2:usage_charge>
+            <id>5ad246344bfb5abaf1235d6c-UID</id>
+            <spec_id>571a4569705297995a006226</spec_id>
+            <admin_status>ACTIVE</admin_status>
+            <operation>CREATE</operation>
+            <entries>
+                <ns2:entry>
+                    <key>parentCommunicationProduct</key>
+                    <value>{{MSISDN}}</value>
+                </ns2:entry>
+                <ns2:entry>
+                    <key>communicationProduct</key>
+                    <value>{{MSISDN}}</value>
+                </ns2:entry>
+                <ns2:entry>
+                    <key>subscriptionId</key>
+                    <value>{{MSISDN}}</value>
+                </ns2:entry>
+            </entries>
+        </ns2:usage_charge>
+    </usage_charges>
+    <recurring_charges/>
+    <allowances>
+    </allowances>
+    <spending_limits/>
+    <alarms/>
+    <balances/>
+    <otas/>
+    <otcs/>
+    <entries>
+        <ns2:entry>
+            <key>dealer</key>
+            <value>dealer_default</value>
+        </ns2:entry>
+    </entries>
+    <reason_code>1</reason_code>
+    <reason_description>Automatic Test</reason_description>
+    <channel>Altice Labs</channel>
+    <sub_channel>QA Team</sub_channel>
+</ns2:agreement>

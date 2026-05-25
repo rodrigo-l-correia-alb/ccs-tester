@@ -1,0 +1,54 @@
+{
+   "userLocationInfoTime": "2019-04-17T09:33:14.972Z",
+   "accessType": "3GPP_ACCESS",
+   "chargingcharacteristics": "00004",
+   "dnn": "{{SERVICE}}",
+   "gpsi": "{{MSISDN}}",
+   "ipv4Address": "1.1.1.2",
+   "notificationUri": "http://127.0.0.1:8089/notification/v1/sm-policies/{{CID}}",
+   "numOfPackFilter": 15,
+   "offline": true,
+   "pduSessionId": 70,
+   "pduSessionType": "IPV4",
+   "pei": "imeisv-{{MSISDN}}",
+   "qosFlowUsage": "IMS_SIG",
+   "ratType": "EUTRA",
+   "refQosIndication": false,
+   "servingNetwork": {
+     "mcc": "268",
+     "mnc": "06"
+   },
+   "servNfId": {
+     "anGwAddr": {
+       "anGwIpv4Addr": "10.102.68.137"
+     }
+   },
+   "sliceInfo": {
+     "sst": 1
+   },
+   "subsDefQos": {
+     "arp": {
+       "preemptCap": "MAY_PREEMPT",
+       "preemptVuln": "PREEMPTABLE",
+       "priorityLevel": 1
+     }
+   },
+   "subsSessAmbr": {
+     "downlink": "2 Mbps",
+     "uplink": "2 Mbps"
+   },
+   "supi": "imsi-{{MSISDN}}",
+   "suppFeat": "2000400000100",
+   "ueTimeZone": "+00:00",
+   "userLocationInfo": {
+     "eutraLocation": {
+       "ecgi": {
+         "eutraCellId": "0013815",
+           "plmnId": {
+             "mcc": "268",
+             "mnc": "06"
+            }
+         }
+       }
+    }
+}

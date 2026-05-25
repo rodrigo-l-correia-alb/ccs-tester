@@ -1,0 +1,61 @@
+[2026-03-05 17:26:07.861] [INFO   ] Credit account 750250105 with 2684354560 bytes 
+[2026-03-05 17:26:07.885] [INFO   ] testStartSeconds:2025-07-05T16:26:07.001Z 
+[2026-03-05 17:26:07.885] [INFO   ] testStartSeconds:2025-07-05T16:26:07.001Z 
+[2026-03-05 17:26:07.885] [INFO   ] testStartSeconds:2025-07-05T16:26:07.001Z 
+[2026-03-05 17:26:07.886] [INFO   ] testEndSeconds:2027-07-06T03:26:07.001Z 
+[2026-03-05 17:26:07.885] [INFO   ] testEndSeconds:2027-07-06T03:26:07.001Z 
+[2026-03-05 17:26:07.887] [INFO   ] testEndSeconds:2027-07-06T03:26:07.001Z 
+[2026-03-05 17:26:23.680] [INFO   ] onlineChargingData(750250105, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-07-05T16:26:07.001Z, N7) 
+[2026-03-05 17:26:23.681] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2026-03-05 17:26:23.714] [INFO   ] LDAP Consumido = {0} Quota total = {2684354560} 
+[2026-03-05 17:26:23.715] [INFO   ] AvailableQuota: 2684354560 
+[2026-03-05 17:26:23.720] [INFO   ] GSU=104857600, consumptionRate=6204 bytes/s Intervalo entre pedido=16901 
+[2026-03-05 17:26:23.762] [INFO   ] onlineChargingData(750250105, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-07-05T16:26:07.001Z, SERVICE3) 
+[2026-03-05 17:26:23.763] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2026-03-05 17:26:23.775] [INFO   ] LDAP Consumido = {0} Quota total = {2684354560} 
+[2026-03-05 17:26:23.776] [INFO   ] AvailableQuota: 2684354560 
+[2026-03-05 17:26:23.777] [INFO   ] GSU=104857600, consumptionRate=5695 bytes/s Intervalo entre pedido=18412 
+[2026-03-05 17:26:24.063] [INFO   ] onlineChargingData(750250105, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-07-05T16:26:07.001Z, SERVICE2) 
+[2026-03-05 17:26:24.064] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2026-03-05 17:26:24.080] [INFO   ] LDAP Consumido = {0} Quota total = {2684354560} 
+[2026-03-05 17:26:24.081] [INFO   ] AvailableQuota: 2684354560 
+[2026-03-05 17:26:24.081] [INFO   ] GSU=104857600, consumptionRate=521987 bytes/s Intervalo entre pedido=200 
+[2026-03-05 17:26:52.274] [INFO   ] onlineChargingData(750250105, UPDATE_REQUEST, 713794c5-343b-4585-8477-e213452ebe45, 2, 104857600, 0, 2025-07-05T21:07:48.001Z, N7) 
+[2026-03-05 17:26:52.274] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2026-03-05 17:26:52.297] [INFO   ] LDAP Consumido = {629145600} Quota total = {2684354560} 
+[2026-03-05 17:26:52.298] [INFO   ] AvailableQuota: 2055208960 
+[2026-03-05 17:26:52.299] [INFO   ] GSU=104857600, consumptionRate=39928 bytes/s Intervalo entre pedido=2626 
+[2026-03-05 17:26:52.786] [INFO   ] onlineChargingData(750250105, UPDATE_REQUEST, 4fe5ee37-c4fd-484f-a550-5f9f0859a338, 2, 104857600, 0, 2025-07-05T21:32:59.001Z, SERVICE3) 
+[2026-03-05 17:26:52.787] [INFO   ] Http response with code: 200 Message {grantedUnit=104857600, resultCode=200} 
+[2026-03-05 17:26:52.799] [INFO   ] LDAP Consumido = {629145600} Quota total = {2684354560} 
+[2026-03-05 17:26:52.799] [INFO   ] AvailableQuota: 2055208960 
+[2026-03-05 17:26:52.800] [INFO   ] GSU=104857600, consumptionRate=179423 bytes/s Intervalo entre pedido=584 
+[2026-03-05 17:26:52.806] [INFO   ] [Truncated] GSU= 104857600, used = 5023844 consumptionRate= 179423 bytes/s Intervalo entre pedido = 28 
+[2026-03-05 17:26:54.090] [SEVERE ] Exception Thrown while trying to send request java.util.concurrent.TimeoutException: Idle timeout 30000 ms 
+[2026-03-05 17:26:54.102] [INFO   ] LDAP Consumido = {629145600} Quota total = {2684354560} 
+[2026-03-05 17:26:54.104] [INFO   ] AvailableQuota: 2055208960 
+[2026-03-05 17:26:54.105] [INFO   ] GSU=0, consumptionRate=170 bytes/s Intervalo entre pedido=0 
+[2026-03-05 17:26:55.687] [INFO   ] onlineChargingData(750250105, UPDATE_REQUEST, 28dc2bb7-60e9-407a-aebe-8ac43f118aa0, 3, 0, 0, 2025-07-05T16:29:27.001Z, SERVICE2) 
+[2026-03-05 17:26:55.687] [INFO   ] Http response with code: 404 Message {resultCode=404} 
+[2026-03-05 17:26:55.704] [INFO   ] LDAP Consumido = {629145600} Quota total = {2684354560} 
+[2026-03-05 17:26:55.705] [INFO   ] AvailableQuota: 2055208960 
+[2026-03-05 17:26:55.705] [INFO   ] GSU=0, consumptionRate=4 bytes/s Intervalo entre pedido=0 
+[2026-03-05 17:27:22.316] [SEVERE ] Exception Thrown while trying to send request java.util.concurrent.TimeoutException: Idle timeout 30000 ms 
+[2026-03-05 17:27:22.335] [INFO   ] LDAP Consumido = {848908488} Quota total = {2684354560} 
+[2026-03-05 17:27:22.336] [INFO   ] AvailableQuota: 1835446072 
+[2026-03-05 17:27:22.336] [INFO   ] GSU=0, consumptionRate=62391 bytes/s Intervalo entre pedido=0 
+[2026-03-05 17:27:22.814] [SEVERE ] Exception Thrown while trying to send request java.util.concurrent.TimeoutException: Idle timeout 30000 ms 
+[2026-03-05 17:27:22.825] [INFO   ] LDAP Consumido = {848908488} Quota total = {2684354560} 
+[2026-03-05 17:27:22.826] [INFO   ] AvailableQuota: 1835446072 
+[2026-03-05 17:27:23.774] [INFO   ] onlineChargingData(750250105, UPDATE_REQUEST, 713794c5-343b-4585-8477-e213452ebe45, 4, 0, 0, 2025-07-05T21:51:34.001Z, N7) 
+[2026-03-05 17:27:23.775] [INFO   ] Http response with code: 404 Message {resultCode=404} 
+[2026-03-05 17:27:23.791] [INFO   ] LDAP Consumido = {848908488} Quota total = {2684354560} 
+[2026-03-05 17:27:23.792] [INFO   ] AvailableQuota: 1835446072 
+[2026-03-05 17:27:23.792] [INFO   ] GSU=0, consumptionRate=434 bytes/s Intervalo entre pedido=0 
+[2026-03-05 17:27:25.722] [SEVERE ] Exception Thrown while trying to send request java.util.concurrent.TimeoutException: Idle timeout 30000 ms 
+[2026-03-05 17:27:25.736] [INFO   ] LDAP Consumido = {848908488} Quota total = {2684354560} 
+[2026-03-05 17:27:25.736] [INFO   ] AvailableQuota: 1835446072 
+[2026-03-05 17:27:27.609] [INFO   ] onlineChargingData(750250105, TERMINATION_REQUEST, 713794c5-343b-4585-8477-e213452ebe45, 5, 0, 0, 2025-07-05T21:51:34.001Z, N7) 
+[2026-03-05 17:27:27.611] [INFO   ] Http response with code: 404 Message {resultCode=404} 
+[2026-03-05 17:27:27.622] [INFO   ] LDAP Consumido = {848908488} Quota total = {2684354560} 
+[2026-03-05 17:27:27.623] [INFO   ] AvailableQuota: 1835446072 

@@ -1,0 +1,22 @@
+{
+    "ueTimeZone": "UTC",
+    "userLocationInfoTime": "2020-12-17T11:53:47.018Z",
+    "servingNetwork": {
+      "mcc": "268",
+      "mnc": "06"
+    },
+    "accuUsageReports": [
+      {
+        "refUmIds": "100",
+        "volUsage": 0,
+        "volUsageUplink": 0,
+        "volUsageDownlink": 0,
+        "timeUsage": 0,
+        "nextVolUsage": 0,
+        "nextVolUsageUplink": 0,
+        "nextVolUsageDownlink": 0,
+        "nextTimeUsage": 0
+      }
+    ],
+    "pduSessRelCause": "PS_TO_CS_HO"
+  }

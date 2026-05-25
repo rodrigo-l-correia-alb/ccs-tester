@@ -1,0 +1,24 @@
+[2026-01-29 14:01:01.400] [INFO   ] Credit account 200300402 with 3328599654 bytes 
+[2026-01-29 14:01:01.910] [INFO   ] testStartSeconds:2025-05-29T13:01:01.001Z 
+[2026-01-29 14:01:01.912] [INFO   ] testEndSeconds:2027-05-30T00:01:01.001Z 
+[2026-01-29 14:01:01.927] [INFO   ] testStartSeconds:2025-05-29T13:01:01.001Z 
+[2026-01-29 14:01:01.929] [INFO   ] testEndSeconds:2027-05-30T00:01:01.001Z 
+[2026-01-29 14:01:01.931] [INFO   ] testStartSeconds:2025-05-29T13:01:01.001Z 
+[2026-01-29 14:01:01.933] [INFO   ] testEndSeconds:2027-05-30T00:01:01.001Z 
+[2026-01-29 14:01:05.965] [INFO   ] onlineChargingData(200300402, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-29T13:01:01.001Z, SERVICE2) 
+[2026-01-29 14:01:05.970] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2026-01-29 14:01:05.971] [INFO   ] onlineChargingData(200300402, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-29T13:01:01.001Z, SERVICE3) 
+[2026-01-29 14:01:05.972] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2026-01-29 14:01:05.971] [INFO   ] onlineChargingData(200300402, INITIAL_REQUEST, POSTMAN_MOC_xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx, 1, 0, 0, 2025-05-29T13:01:01.001Z, N7) 
+[2026-01-29 14:01:05.974] [INFO   ] Http response with code: 201 Message {grantedUnit=104857600, resultCode=201} 
+[2026-01-29 14:01:06.003] [INFO   ] LDAP Consumido = {0} Quota total = {3328599654} 
+[2026-01-29 14:01:06.005] [INFO   ] AvailableQuota: 3328599654 
+[2026-01-29 14:01:06.017] [INFO   ] GSU=104857600, consumptionRate=714080 bytes/s Intervalo entre pedido=146 
+[2026-01-29 14:01:06.034] [INFO   ] LDAP Consumido = {0} Quota total = {3328599654} 
+[2026-01-29 14:01:06.034] [INFO   ] LDAP Consumido = {0} Quota total = {3328599654} 
+[2026-01-29 14:01:06.035] [INFO   ] [Truncated] GSU= 104857600, used = 714080 consumptionRate= 714080 bytes/s Intervalo entre pedido = 1 
+[2026-01-29 14:01:06.035] [INFO   ] AvailableQuota: 3328599654 
+[2026-01-29 14:01:06.035] [INFO   ] AvailableQuota: 3328599654 
+[2026-01-29 14:01:06.036] [INFO   ] GSU=104857600, consumptionRate=78531 bytes/s Intervalo entre pedido=1335 
+[2026-01-29 14:01:06.036] [INFO   ] GSU=104857600, consumptionRate=1953 bytes/s Intervalo entre pedido=53690 
+[2026-01-29 14:01:06.037] [INFO   ] [Truncated] GSU= 104857600, used = 23795352 consumptionRate= 1953 bytes/s Intervalo entre pedido = 12184 

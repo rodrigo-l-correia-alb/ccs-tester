@@ -1,0 +1,323 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome",
+    "description":"Schema used to produce and validate yaml configurations for the phr traffic simulator",
+    "definitions": {
+        "Welcome": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "client_groups": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/ClientGroup"
+                    }
+                },
+                "phr_setup": {
+                    "$ref": "#/definitions/PhrSetup"
+                },
+                "test_duration": {
+                    "$ref": "#/definitions/TimeDuration"
+                },
+                "usage_patterns":{
+                    "type":"array",
+                    "items":{
+                        "$ref":"#/definitions/UsagePattern"
+                    }
+                },
+                "initial":{
+                    "$ref": "#/definitions/InitialValues"
+                }
+            },
+            "required": [
+                "client_groups",
+                "test_duration"
+            ],
+            "title": "Welcome"
+        },
+        "ClientGroup": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "number_of_clients": {
+                    "type": "integer"
+                },
+                "initial":{
+                    "$ref": "#/definitions/InitialValues"
+                },
+                "client_type": {
+                    "$ref": "#/definitions/ClientType"
+                }
+            },
+            "required": [
+                "client_type",
+                "number_of_clients"
+            ],
+            "title": "ClientGroup"
+        },
+        "ClientType": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "ammount": {
+                    "type": "integer"
+                },
+                "initial_amount": {
+                    "$ref": "#/definitions/MoneyInterval"
+                },
+                "agreement_type": {
+                    "type": "string"
+                },
+                "services": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Service"
+                    }
+                },
+                "topup":{
+                    "$ref": "#/definitions/Topup"
+                }
+            },
+            "required": [
+                "ammount",
+                "services"
+            ],
+            "title": "ClientType"
+        },
+        "Topup":{
+            "type":"object",
+            "additionalProperties": false,
+            "properties": {
+                "usage_pattern": {
+                    "oneOf":[
+                        {"type": "string"},
+                        {"$ref": "#/definitions/UsagePattern"}
+                    ]
+                }
+            },
+            "required": [
+                "usage_pattern"
+            ],
+            "title": "Topup"
+        },
+        "Service": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "serviceContextId": {
+                    "type": "string"
+                },
+                "usage_pattern": {
+                    "oneOf": [
+                        {"type": "string"},
+                        {"$ref": "#/definitions/UsagePattern"}
+                    ]
+                    
+                    
+                  }
+                
+            },
+            "required": [
+                "serviceContextId",
+                "usage_pattern"
+            ],
+            "title": "Service"
+        },
+
+        "UsagePattern": {
+            "type": ["object"],
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "request_interval": {
+                    "$ref": "#/definitions/TimeInterval"
+                },
+                "max_session_duration": {
+                    "$ref": "#/definitions/TimeIterval"
+                },
+                "consumption_rate": {
+                    "$ref": "#/definitions/TimeInterval"
+                },
+                "session_interval": {
+                    "$ref": "#/definitions/TimeInterval"
+                },
+                "ammount": {
+                    "type": "number"
+                },
+                "is_reactive": {
+                    "type": "boolean"
+                }
+
+            },
+            "required": [],
+            "title": "UsagePattern"
+        },
+        "RequiredClientAgeToStart": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "ammount": {
+                    "type": "string"
+                },
+                "unit": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "ammount",
+                "unit"
+            ],
+            "title": "RequiredClientAgeToStart"
+        },
+
+        "TimeDuration": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "ammount": {
+                    "oneOf": [
+                        {"type": "integer"},
+                        {"type": "string"}]
+                    },
+                    
+                "unit": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "ammount",
+                "unit"
+            ],
+            "title": "TimeDuration"
+        },
+        "TimeInterval": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "random": {
+                    "$ref": "#/definitions/RandomElem"
+                },
+                "unit": {
+                    "type":"string",
+                    "enum":["NANOSECONDS", "MICROSECONDS", "MILLISECONDS","SECONDS","MINUTES","HOURS","DAYS"]
+                }
+            },
+            "required": [
+                "random",
+                "unit"
+            ],
+            "title": "TimeInterval"
+        },
+        "MoneyInterval": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "random": {
+                    "$ref": "#/definitions/RandomElem"
+                }
+            },
+            "required": [
+                "random"
+            ],
+            "title": "MoneyInterval"
+        },
+        "RandomElem": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "mean": {
+                    "type":"number"
+                },
+                "std": {
+                    "type":"number"
+                },
+                "df": {
+                    "type": "number"
+                },
+                "loc": {
+                    "type": "number"
+                },
+                "scale": {
+                    "type": "number"
+                }
+            },
+            "title": "RandomElem"
+        },
+        "PhrSetup": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "required_entries_to_start":{
+                    "type":"integer"
+                },
+                "required_client_age_to_start": {
+                    "$ref": "#/definitions/RequiredClientAgeToStart"
+                },
+                "threshold_refresh_period": {
+                    "$ref": "#/definitions/TimeDuration"
+                },
+
+                "losses_table_refresh_period":{
+                    "$ref": "#/definitions/TimeDuration"
+                },
+                "losses_table_retention_time":{
+                    "$ref": "#/definitions/TimeDuration"
+                },
+                "risk": {
+                    "$ref": "#/definitions/Risk"
+                }
+            },
+            "required": [
+                "required_entries_to_start",
+                "required_client_age_to_start",
+                "risk",
+                "threshold_refresh_period",
+                "losses_table_refresh_period",
+                "losses_table_retention_time"
+            ],
+            "title": "PhrSetup"
+        },
+        "Risk": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "serviceContextId": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": {
+                            "type": "number"
+                        }
+                    }
+                },
+                "default": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "default",
+                "serviceContextId"
+            ],
+            "title": "Risk"
+        },
+        "InitialValues":{
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "MSISDN":{
+                    "type":"integer"
+                },
+                "account": {
+                    "type":"string"
+                }
+            },
+            "title": "InitialValues"
+
+        }
+    }
+}

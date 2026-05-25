@@ -1,0 +1,11 @@
+{
+   "id": "{{ACCOUNT_ID}}",
+   "billingAccountId": "{{ACCOUNT_ID}}",
+   "timeZone": "+00:00",
+   "characteristics": [
+     {
+        "name": "name",
+        "value": "Account Name {{ACCOUNT_ID}}"
+     }
+   ]
+}

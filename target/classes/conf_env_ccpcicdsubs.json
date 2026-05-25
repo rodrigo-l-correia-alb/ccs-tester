@@ -1,0 +1,17 @@
+{
+    "externalclients": true,
+    "endpoints": {
+        "urlCreateAccount": "https://pcf-orchprovisioning-service.ccpcicdsubs.apps2.ocp.dev.alticelabs.com:443/account" ,
+        "urlDeleteAccount": "https://pcf-orchprovisioning-service.ccpcicdsubs.apps2.ocp.dev.alticelabs.com:443/account/",
+        "urlCreateAgreement": "https://pcf-orchprovisioning-service.ccpcicdsubs.apps2.ocp.dev.alticelabs.com:443/product",
+
+        "urlCreateClientLdap": "ldap://10.112.232.158:1389",
+
+        "urlOnlineCharging": "http://pcf-smpolicycontrol-orch.ccpcicdsubs.apps2.ocp.dev.alticelabs.com:80/npcf-smpolicycontrol/v1/sm-policies",
+
+        "urlCreditBucket": "http://qnt-dev-sat1.c.ptin.corppt.com:9101/ocs-gcc/customer-accounts/",
+        "urlGetSaldo": "http://qnt-dev-sat1.c.ptin.corppt.com:9101/ocs-gcc/customer-accounts/",
+        "urlESR": "http://pcf-srv-criteria-service.ccpcicdsubs.apps2.ocp.dev.alticelabs.com"
+    }
+}
+

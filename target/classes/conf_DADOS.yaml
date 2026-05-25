@@ -1,0 +1,104 @@
+client_groups: #We can define several client groups here
+  - name: GROUP_DADOS        #Simple descriptive client group name
+    number_of_clients: 1
+    initial:
+      MSISDN: 750250832   #111222232  #999111901
+      account: "750250832"  #111222232  #999111901
+    client_type:
+      ammount: 10000     #Ammount to be deposited in client's acoount on creation
+      initial_amount:
+        random:
+          mean: 114   # multiplicado por 1M (assumindo 1 moeda = 1M)
+          std: 46     # multiplicado por 1M (assumindo 1 moeda = 1M)
+      services:
+        - serviceContextId: N7   #8.32251@3gpp.org   #DATA - This can be used to define topups as well if we want
+          usage_pattern: SOME_USAGE_PATTERN
+#        - serviceContextId: SERVICE2   #DATA - This can be used to define topups as well if we want
+#          usage_pattern: SOME_USAGE_PATTERN
+#        - serviceContextId: SERVICE3   #DATA - This can be used to define topups as well if we want
+#          usage_pattern: SOME_USAGE_PATTERN
+      topup:
+        usage_pattern: ANOTHER_USAGE_PATTERN_POSSIBLY_TOPUP_PATTERN
+
+usage_patterns:
+  - name: SOME_USAGE_PATTERN #Simple descriptive usage pattern name
+    request_interval: #Time interval between requests
+      random:
+        mean: 144000
+        std: 0
+      unit: SECONDS
+
+    max_session_duration:
+      random:
+        df: 0.35972655966338585
+        loc: -2.300976377445386e-20
+        scale: 77340.09006918102
+      unit: SECONDS
+
+    consumption_rate:
+      random:
+        df: 0.24594936612371615
+        loc: 0.003888888888888884
+        scale: 536750.7673112341
+      unit: SECONDS
+
+    session_interval: #Time interval between sessions
+      random:
+        df: 0.4399814175248422
+        loc: 0.9999999999999999
+        scale: 37555.10868230616
+      unit: SECONDS
+    ammount: 10 #This will probably not be used since it will be a random amount within given quota
+
+
+
+  - name: ANOTHER_USAGE_PATTERN_POSSIBLY_TOPUP_PATTERN
+    is_reactive: true # Used only for topup.
+    topup_interval:
+      random:
+        mean: 28777
+        std: 258912
+      unit: SECONDS
+    request_interval:
+      random:
+        mean: 17
+        std: 32
+      unit: SECONDS
+    ammount: 1000 #In this case it would be the topup ammount
+    request_ammount:
+      random:
+        mean: 124
+        std: 82
+      unit: SECONDS
+
+
+
+phr_setup:
+  required_entries_to_start: 1
+  required_client_age_to_start:
+    ammount: '1'
+    unit: MINUTES
+  
+  threshold_refresh_period:
+    ammount: 10
+    unit: SECONDS
+
+  losses_table_refresh_period:
+    ammount: 1
+    unit: SECONDS
+  
+  losses_table_retention_time:
+    ammount: 60
+    unit: DAYS
+  risk:
+    serviceContextId:
+      - 7.APC@telecom.pt: 0.4 #VOICE
+      - 8.32251@3gpp.org: 0.6 #DADOS
+      - 8.32274@3gpp.org: 0.7 #SMS
+      - message@huawei.com: 0.7 #SMS
+      - 8.32270@3gpp.org: 0.8 #MMS
+    default: 0.5
+
+test_duration:
+  ammount: 17531 #200 #2160 #720 30dias
+  unit: HOURS

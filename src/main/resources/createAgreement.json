@@ -1,0 +1,24 @@
+{
+    "id": "{{AGREEMENT_ID}}",
+    "accountId": "{{ACCOUNT_ID}}",
+    "productOfferingId": "185583b8-84be-11ee-b9d1-0242ac120002",
+    "productPolicies": [
+      {
+        "id": "65f090ce4169065b15f891bf-{{MSISDN}}",
+        "policyType": "SessionPolicy",
+        "specId": "67239879fdc69325d5192d55",
+        "status": "ACTIVE",
+        "coexistenceRules": {},
+        "productPolicyCharacteristics": [{
+          "name": "msisdn",
+          "value": "{{MSISDN}}"
+        }]
+      }
+    ],
+    "productCharacteristics": [
+      {
+        "name": "type",
+        "value": "premium"
+      }
+    ]
+}

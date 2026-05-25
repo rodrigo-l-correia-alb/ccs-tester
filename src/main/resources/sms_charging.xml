@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mii:online-charging-event xmlns:mii="http://www.ptinovacao.pt/qntintegration/mii">
+  <session-id>{{RQID}}</session-id>
+  <auth-application-id>4</auth-application-id>
+  <service-context-id>message@huawei.com</service-context-id>
+  <cc-request-type>EVENT_REQUEST</cc-request-type>
+  <cc-correlation-id>CID_{{CID}}</cc-correlation-id>
+  <cc-request-number>1</cc-request-number>
+  <event-timestamp>{{CURRENT_TIMESTAMP}}</event-timestamp>
+  <requested-action>DIRECT_DEBITING</requested-action>
+  <multiple-services-indicator>MULTIPLE_SERVICES_NOT_SUPPORTED</multiple-services-indicator>
+  <subscription-id>
+  	<subscription-id-type>END_USER_E164</subscription-id-type>
+    <subscription-id-data>{{MSISDN}}</subscription-id-data>
+  </subscription-id>
+  <multiple-services-credit-control>    
+    <service-identifier>1</service-identifier>
+    <!--<rating-group>1</rating-group>-->
+    <requested-service-unit>
+      <cc-service-specific-units>1</cc-service-specific-units>    
+    </requested-service-unit>
+  </multiple-services-credit-control>
+  <service-parameter-info>
+        <service-parameter-type>1</service-parameter-type><!-- SMS's destination -->
+        <service-parameter-value>1{{DESTINATION}}</service-parameter-value>
+    </service-parameter-info>
+    <service-parameter-info>
+        <service-parameter-type>4</service-parameter-type><!-- VLR -->
+        <service-parameter-value>0018098599915</service-parameter-value>
+    </service-parameter-info>
+    <service-parameter-info>
+        <service-parameter-type>7241001</service-parameter-type><!-- SMSC Address -->
+        <service-parameter-value>18098599999</service-parameter-value>
+    </service-parameter-info>
+    <service-parameter-info>
+        <service-parameter-type>7241002</service-parameter-type><!-- MO_MSC_Address = MO MSC Address: VLR from where the origin is sending the SMS -->
+        <service-parameter-value>18098599911</service-parameter-value>
+    </service-parameter-info>
+    <service-parameter-info>
+        <service-parameter-type>7241003</service-parameter-type><!-- MT_MSC_Address = MT MSC Address: VLR where the destination is located -->
+        <service-parameter-value>18098599912</service-parameter-value>
+    </service-parameter-info>
+    <service-parameter-info>
+        <service-parameter-type>7241004</service-parameter-type><!-- Source_addr = Originating Address: MSISDN of the origin. (The one who will be charged) -->
+        <service-parameter-value>1{{MSISDN}}</service-parameter-value>
+    </service-parameter-info>
+    <service-parameter-info>
+        <service-parameter-type>7241005</service-parameter-type><!-- Dest_addr = Destination Address: The number of the destination (full MSISDN if it is P2P (peer to peer) , or short code if it is P2A(peer to application)) -->
+        <service-parameter-value>1{{DESTINATION}}</service-parameter-value>
+    </service-parameter-info>
+    <service-parameter-info>
+        <service-parameter-type>7241006</service-parameter-type><!-- ORG_IMSI = Originating IMSI: IMSI of the origin -->
+        <service-parameter-value>370011234567890</service-parameter-value>
+    </service-parameter-info>
+    <service-parameter-info>
+        <service-parameter-type>7241007</service-parameter-type><!-- DEST_IMSI = Destination IMSI: IMSI of the destination in case of P2P -->
+        <service-parameter-value>370010987654321</service-parameter-value>
+    </service-parameter-info>
+  <avp>
+  </avp>
+</mii:online-charging-event>

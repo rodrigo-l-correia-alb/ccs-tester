@@ -1,0 +1,92 @@
+client_groups:              #We can define several client groups here
+  - name: GROUP_VOICE
+    number_of_clients: 50
+    initial:
+      MSISDN: 600114500
+      account: "600114500"
+    client_type:
+      ammount: 10
+      initial_amount:
+        random:
+          mean: 1140000000000000000
+          std: 46
+      services:
+        - serviceContextId: 7.APC@telecom.pt
+          usage_pattern: VOICE_PATTERN
+      topup:
+        usage_pattern: ANOTHER_USAGE_PATTERN_POSSIBLY_TOPUP_PATTERN
+
+usage_patterns:
+  - name: VOICE_PATTERN #Simple descriptive usage pattern name
+    request_interval: #Time interval between requests
+      random:
+        mean: 6000
+        std: 0
+      unit: SECONDS
+      
+    max_session_duration: 
+      random:
+        df: 0.6431301870420387
+        loc: 0.9999999999999999
+        scale: 398.14750380544035
+      unit: SECONDS
+      
+    session_interval: #Time interval between sessions
+      random:
+        df: 0.45184562536470463
+        loc: 0.010999999999999998
+        scale: 61605.37162866954
+      unit: SECONDS
+    ammount: 10 #This will probably not be used since it will be a random amount within given quota
+
+  - name: ANOTHER_USAGE_PATTERN_POSSIBLY_TOPUP_PATTERN
+    is_reactive: true # Used only for topup.
+    request_interval: #Time interval between requests
+      random:
+        mean: 17
+        std: 0
+      unit: SECONDS
+    ammount: 1000 #In this case it would be the topup ammount
+    request_ammount:
+      random:
+        mean: 11400000000000
+        std: 82
+      unit: SECONDS
+
+  
+
+phr_setup:
+  required_entries_to_start: 1
+  required_client_age_to_start: 
+    ammount: '1'
+    unit: MINUTES
+  
+  threshold_refresh_period:
+    ammount: 10
+    unit: SECONDS
+
+  losses_table_refresh_period:
+    ammount: 1
+    unit: SECONDS
+  
+  losses_table_retention_time:
+    ammount: 60
+    unit: DAYS
+  risk:
+    serviceContextId:
+      - 7.APC@telecom.pt: 0.4 #VOICE
+      - 8.32251@3gpp.org: 0.6 #DADOS
+      - 8.32274@3gpp.org: 0.7 #SMS
+      - message@huawei.com: 0.7 #SMS
+      - 8.32270@3gpp.org: 0.8 #MMS
+    default: 0.5
+
+test_duration:
+  ammount: 3600
+  unit: HOURS
+
+# initial:stat
+#   MSISDN: 60000000
+#   account: "60000000"
+
+
