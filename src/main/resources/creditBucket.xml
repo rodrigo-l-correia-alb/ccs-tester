@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mii:create_bucket_slice_message xmlns:mii="http://www.ptinovacao.pt/qntintegration/mii">
-    <amount>1000000000.0</amount>
-    <start_date>2022-04-05T12:01:00.000Z</start_date>
-    <end_date>2022-12-01T12:01:00.000Z</end_date>
-</mii:create_bucket_slice_message>

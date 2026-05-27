@@ -38,7 +38,6 @@ public class App {
 
         configSetup.testStart();
 
-        //Thread.sleep(10000);
         configSetup.stopHttpClient();
         configSetup.closeLDAP();
 

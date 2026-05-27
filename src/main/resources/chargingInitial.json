@@ -1,0 +1,22 @@
+{
+  "oneTimeEvent": "false",
+  "invocationSequenceNumber": 0,
+  "invocationTimeStamp": "{{TIMESTAMP}}",
+  "serviceSpecificationInfo": "dados1@3gpp.org",
+  "subscriberIdentifier": "{{MSISDN}}",
+
+  "nfConsumerIdentification": {
+    "nFName": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+    "nodeFunctionality": "SMF"
+  },
+  "sMFchargingId": "123",
+  "multipleUnitUsage": [
+    {
+      "ratingGroup": 10,
+      "requestedUnit": {
+        "totalVolume": 1000
+      }
+    }
+  ],
+  "notifyUri": "https://smf1.operator.com/notification"
+}

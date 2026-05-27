@@ -68,62 +68,6 @@ public class RequestsHttp implements Requests {
     }
 
     @Override
-    public boolean createAccount(String account) {
-        boolean flag = false;
-
-        Request request = this.httpClient.POST(Configurations.urlCreateAccount());
-
-        request.headers(httpFields -> {
-            httpFields.add("X-requestTs", Configurations.miliSecondToString_UTC(Configurations.timestampSecondsMinus1Month()));
-            httpFields.add("X-requestId", "POSTMAN_RQID_" + Configurations.uuid());
-            httpFields.add("Content-Type", "application/json");
-            httpFields.add("Accept", "*/*");
-        });
-
-        String jsonBody = Configurations.parsingCreateAccountFile(account);
-
-        request.body(new StringRequestContent("application/json", jsonBody));
-
-        try {
-            ContentResponse response = request.send();
-            String res = new String(response.getContent());
-
-            if (response.getStatus() == 200) flag = true;
-
-            logger.info(String.format("createAccount(%s)", account));
-            logger.info("Http response with code: " + response.getStatus() + " Message: " + res);
-        } catch (InterruptedException | TimeoutException | ExecutionException e) {
-            logger.severe("Exception Thrown while trying to send request " + e);
-            return false;
-        }
-
-        return flag;
-    }
-
-    @Override
-    public boolean deleteAccount(String account) {
-        boolean flag = false;
-
-        Request request = this.httpClient.newRequest(Configurations.urlDeleteAccount(account));
-        request.method(HttpMethod.DELETE);
-
-        request.body(new StringRequestContent("application/json", ""));
-
-        try {
-            ContentResponse response = request.send();
-            String res = new String(response.getContent());
-
-            if (response.getStatus() == 200) flag = true;
-
-            logger.info(String.format("deleteAccount(%s)", account) + "\nHttp response with code: " + response.getStatus() + " Message " + res);
-        } catch (InterruptedException | TimeoutException | ExecutionException e) {
-            logger.severe("Exception Thrown while trying to send request " + e);
-            return false;
-        }
-        return flag;
-    }
-
-    @Override
     public boolean createAgreement(String account, String msisdn) {
         boolean flag = false;
 
@@ -405,7 +349,7 @@ public class RequestsHttp implements Requests {
     }
 
     @Override
-    public double getSaldo(String account, AgreementType type) {
+    public double getBalance(String account, AgreementType type) {
         double saldo = 0;
 
         Request request = this.httpClient.newRequest(Configurations.urlGetSaldo(account));
@@ -434,32 +378,6 @@ public class RequestsHttp implements Requests {
             logger.severe("Exception Thrown while trying to send request " + e);
         }
         return saldo;
-    }
-
-    public void notifyESR(String account, double newQuota, int amount) throws ParserConfigurationException, IOException, SAXException, TransformerException {
-
-        Request request = this.httpClient.POST(Configurations.getUrlESR());
-        request.timeout(35L, TimeUnit.SECONDS);
-
-        request.headers(httpFields -> {
-            httpFields.add("Content-Type", "application/xml");
-            httpFields.add("Accept", "*/*");
-        });
-
-        String xmlBody = Configurations.parsingESRFile(account, newQuota, amount);
-
-        request.body(new StringRequestContent("application/xml", xmlBody));
-
-        try {
-            ContentResponse response = request.send();
-            String res = new String(response.getContent());
-
-            logger.info("ESR Notification for account: " + account + " with response code: " + response.getStatus());
-        } catch (InterruptedException | TimeoutException | ExecutionException e) {
-            logger.severe("Exception Thrown while trying to send request " + e);
-        }
-
-
     }
 
 }

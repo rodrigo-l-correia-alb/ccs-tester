@@ -18,6 +18,6 @@ public interface Requests {
 
     boolean creditBucket(String account, String amount, String startDate, String endDate, AgreementType type);
 
-    double getSaldo(String account, AgreementType type);
+    double getBalance(String account, AgreementType type);
 
 }

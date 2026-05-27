@@ -1,24 +1,67 @@
 {
-    "id": "{{AGREEMENT_ID}}",
-    "accountId": "{{ACCOUNT_ID}}",
-    "productOfferingId": "185583b8-84be-11ee-b9d1-0242ac120002",
-    "productPolicies": [
-      {
-        "id": "65f090ce4169065b15f891bf-{{MSISDN}}",
-        "policyType": "SessionPolicy",
-        "specId": "67239879fdc69325d5192d55",
-        "status": "ACTIVE",
-        "coexistenceRules": {},
-        "productPolicyCharacteristics": [{
+  "id": "ALBPRD-{{AGREEMENT_ID}}",
+  "accountId": "{{ACCOUNT_ID}}",
+  "productOfferingId": "MOB1",
+  "communicationProducts": [
+    {
+      "id": "{{MSISDN}}",
+      "type": "MOBILE"
+    }
+  ],
+  "productPrices": [
+    {
+      "id": "UC1-{{TL_ID}}",
+      "type": "UsageCharge",
+      "specId": "{{UC_DATA1}}",
+      "status": "ACTIVE",
+      "productPriceCharacteristics": [
+        {
           "name": "msisdn",
           "value": "{{MSISDN}}"
-        }]
-      }
-    ],
-    "productCharacteristics": [
-      {
-        "name": "type",
-        "value": "premium"
-      }
-    ]
+        }
+      ]
+    },
+    {
+      "id": "UC2-{{TL_ID}}",
+      "type": "UsageCharge",
+      "specId": "{{UC_DATA2}}",
+      "status": "ACTIVE",
+      "productPriceCharacteristics": [
+        {
+          "name": "msisdn",
+          "value": "{{MSISDN}}"
+        }
+      ]
+    },
+    {
+      "id": "UC3-{{TL_ID}}",
+      "type": "UsageCharge",
+      "specId": "{{UC_DATA3}}",
+      "status": "ACTIVE",
+      "productPriceCharacteristics": [
+        {
+          "name": "msisdn",
+          "value": "{{MSISDN}}"
+        }
+      ]
+    },
+    {
+      "id": "TUC-{{TL_ID}}",
+      "type": "Topup",
+      "specId": "{{TUC}}",
+      "status": "ACTIVE",
+      "productPriceCharacteristics": [
+        {
+          "name": "msisdn",
+          "value": "{{MSISDN}}"
+        }
+      ]
+    }
+  ],
+  "productCharacteristics": [
+    {
+      "name": "name",
+      "value": "ALB Product {{AGREEMENT_ID}} "
+    }
+  ]
 }

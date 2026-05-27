@@ -1,0 +1,10 @@
+{
+  "endpoints": {
+    "urlCreateAgreement": "https://pcf-orchprovisioning-service.ccpcicdsubs.apps2.ocp.dev.alticelabs.com:443/product",
+    "urlDeleteAgreement": "https://pcf-orchprovisioning-service.ccpcicdsubs.apps2.ocp.dev.alticelabs.com:443/product",
+    "urlOnlineCharging": "http://pcf-smpolicycontrol-orch.phr.apps2.ocp.dev.alticelabs.com:80/npcf-smpolicycontrol/v1/sm-policies",
+    "urlCreditBucket": "http://qnt-dev-sat1.c.ptin.corppt.com:9101/ocs-gcc/customer-accounts/",
+    "urlGetBalance": "http://qnt-dev-sat1.c.ptin.corppt.com:9101/ocs-gcc/customer-accounts/"
+  }
+}
+

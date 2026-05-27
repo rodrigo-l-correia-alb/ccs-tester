@@ -156,8 +156,6 @@ public class ConfigSetup {
         } else {
             // Clientes internos
             client_group.getClients().forEach(client -> {
-                requests.deleteAccount(client.getAccount());
-                requests.createAccount(client.getAccount());
                 requests.createAgreement(client.getAccount(),
                         String.valueOf(client.getMsisdn()));
 
@@ -224,7 +222,7 @@ public class ConfigSetup {
     }
 
     private List<Callable<Integer>> createTasks(List<ClientGroup> clientGroups) {
-        List<Callable<Integer>> tasks = new ArrayList<Callable<Integer>>();
+        List<Callable<Integer>> tasks = new ArrayList<>();
         for (ClientGroup clientGroup : clientGroups) {
             for (ClientType client : clientGroup.getClients()) {
                 logger.finer(String.format("client.getAccount(): %s, client.getMsisdn(): %s", client.getAccount(), client.getMsisdn()));
@@ -769,10 +767,6 @@ public class ConfigSetup {
 
     public void stopHttpClient() {
         ((RequestsHttp) this.requests).stopHttpClient();
-    }
-
-    public void closeLDAP() {
-        this.requestsLDAP.closeLDAP();
     }
 
     public int getNumberOfAmountRequests() {
